@@ -62,7 +62,7 @@ namespace SyswareFlowChartTest
             {
                 base.Draw(graphics, options);
                 System.Drawing.SolidBrush mysbrush1 = new System.Drawing.SolidBrush(Color.DarkOrchid);
-                graphics.DrawString(this.Text, new Font("宋体", 9), mysbrush1, new PointF(50, 100));     
+                graphics.DrawString(this.Text, new Font("宋体", 9), mysbrush1, new PointF(100, 100));     
             }
         }
         /// <summary>
