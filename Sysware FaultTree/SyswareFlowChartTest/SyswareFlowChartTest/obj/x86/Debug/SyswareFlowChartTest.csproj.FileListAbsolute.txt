@@ -1,0 +1,193 @@
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.exe
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.pdb
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.dll
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.WinForms.dll
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.dll
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.dll
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Licensing.dll
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Vsx.dll
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Mapping.dll
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Barcodes.dll
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Graphs.dll
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Svg.dll
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Scripting.dll
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.xml
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.xml
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Scripting.xml
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.Properties.Resources.resources
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csproj.GenerateResource.Cache
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.exe
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.pdb
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.MainPage.resources
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csprojResolveAssemblyReference.cache
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetTopNode.resources
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetDoorInfo.resources
+E:\杨稳\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetBotNode.resources
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.exe
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.pdb
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.exe
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.pdb
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.dll
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.dll
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Licensing.dll
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Vsx.dll
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Mapping.dll
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Barcodes.dll
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Graphs.dll
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Svg.dll
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Scripting.dll
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.xml
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Scripting.xml
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.MainPage.resources
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.Properties.Resources.resources
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetBotNode.resources
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetDoorInfo.resources
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetTopNode.resources
+C:\Users\Edwin\Desktop\Desktop\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csproj.GenerateResource.Cache
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.exe
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.pdb
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.exe
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.pdb
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.dll
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.dll
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Licensing.dll
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Vsx.dll
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Mapping.dll
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Barcodes.dll
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Graphs.dll
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Svg.dll
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Scripting.dll
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.xml
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Scripting.xml
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.MainPage.resources
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.Properties.Resources.resources
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetBotNode.resources
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetDoorInfo.resources
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetTopNode.resources
+C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csproj.GenerateResource.Cache
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.exe
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.pdb
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.exe
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.pdb
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.dll
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.dll
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Licensing.dll
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Vsx.dll
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Mapping.dll
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Barcodes.dll
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Graphs.dll
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Svg.dll
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Scripting.dll
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.xml
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Scripting.xml
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.MainPage.resources
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.Properties.Resources.resources
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetBotNode.resources
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetDoorInfo.resources
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetTopNode.resources
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csproj.GenerateResource.Cache
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+C:\Users\Edwin\Desktop\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.exe
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.MainPage.resources
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.Properties.Resources.resources
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetBotNode.resources
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetDoorInfo.resources
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetTopNode.resources
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csproj.GenerateResource.Cache
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.exe
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.pdb
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.dll
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.dll
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Licensing.dll
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Vsx.dll
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Mapping.dll
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Barcodes.dll
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Graphs.dll
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Svg.dll
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Scripting.dll
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.xml
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Scripting.xml
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.pdb
+C:\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.View_Results.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.exe
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.pdb
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.exe
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.pdb
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Licensing.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Vsx.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Mapping.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Barcodes.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Graphs.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Svg.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Scripting.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.xml
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Scripting.xml
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.MainPage.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.Properties.Resources.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetBotNode.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetDoorInfo.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetTopNode.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.View_Results.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csproj.GenerateResource.Cache
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\Cutset.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\ProbCal.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Desktop\SyswareFlowChartTest (2)\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.exe
+C:\Users\Edwin\Desktop\SyswareFlowChartTest (2)\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.pdb
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.exe
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.pdb
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.exe
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.pdb
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\Cutset.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.WinForms.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Licensing.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\ProbCal.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Vsx.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Mapping.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Barcodes.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Graphs.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Svg.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Scripting.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.xml
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.xml
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.Controls.xml
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Scripting.xml
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.MainPage.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.Properties.Resources.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetBotNode.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetDoorInfo.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetTopNode.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.View_Results.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csproj.GenerateResource.Cache
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\smileNet.dll
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csprojResolveAssemblyReference.cache

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7D03E37-90A0-48D4-916C-DC2B8D436A50}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SyswareFlowChartTest</RootNamespace>
+    <AssemblyName>SyswareFlowChartTest</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Sysware.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cutset">
+      <HintPath>..\..\..\..\..\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\Cutset.dll</HintPath>
+    </Reference>
+    <Reference Include="MindFusion.Common, Version=1.3.1.18503, Culture=neutral, PublicKeyToken=7fed53ada5b92263" />
+    <Reference Include="MindFusion.Common.WinForms, Version=1.0.0.19943, Culture=neutral, PublicKeyToken=d4273b2e31cd7ad6" />
+    <Reference Include="MindFusion.Diagramming, Version=6.4.3.21032, Culture=neutral, PublicKeyToken=a0d18338041985ba" />
+    <Reference Include="MindFusion.Diagramming.WinForms, Version=6.4.3.21036, Culture=neutral, PublicKeyToken=a0d18338041985ba, processorArchitecture=MSIL" />
+    <Reference Include="MindFusion.Diagramming.WinForms.Controls, Version=6.4.3.21044, Culture=neutral, PublicKeyToken=a0d18338041985ba, processorArchitecture=MSIL" />
+    <Reference Include="MindFusion.Licensing, Version=1.0.3.25443, Culture=neutral, PublicKeyToken=9d02e21d957ddaef" />
+    <Reference Include="ProbCal">
+      <HintPath>..\..\..\..\..\Users\Edwin\Downloads\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\ProbCal.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetBotNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetBotNode.Designer.cs">
+      <DependentUpon>SetBotNode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetDoorInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetDoorInfo.Designer.cs">
+      <DependentUpon>SetDoorInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetTopNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetTopNode.Designer.cs">
+      <DependentUpon>SetTopNode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TopNodeInfos.cs" />
+    <Compile Include="View Results.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View Results.Designer.cs">
+      <DependentUpon>View Results.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SetBotNode.resx">
+      <DependentUpon>SetBotNode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetDoorInfo.resx">
+      <DependentUpon>SetDoorInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetTopNode.resx">
+      <DependentUpon>SetTopNode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Results.resx">
+      <DependentUpon>View Results.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export.png" />
+    <Content Include="Sysware.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

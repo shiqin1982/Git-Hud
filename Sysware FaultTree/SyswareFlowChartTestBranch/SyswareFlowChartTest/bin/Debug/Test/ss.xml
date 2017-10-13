@@ -1,0 +1,78 @@
+<FTProject ID="FT" FTime="5">
+  <Links>
+    <Gate ID="Top">
+      <Gate ID="G1" />
+      <Gate ID="G2" />
+      <Gate ID="G3" />
+      <Gate ID="G4" />
+      <Gate ID="G5" />
+      <Gate ID="G6" />
+      <Gate ID="G8" />
+      <Gate ID="G9" />
+      <Gate ID="G10" />
+      <Gate ID="G11" />
+    </Gate>
+    <Gate ID="G1" />
+    <Gate ID="G2" />
+    <Gate ID="G3">
+      <Gate ID="G19" />
+    </Gate>
+    <Gate ID="G19" />
+    <Gate ID="G4" />
+    <Gate ID="G5">
+      <Gate ID="G7" />
+    </Gate>
+    <Gate ID="G7">
+      <Evt ID="E1" />
+      <Evt ID="E2" />
+      <Evt ID="E3" />
+      <Evt ID="E4" />
+    </Gate>
+    <Gate ID="G6">
+      <Gate ID="G12" />
+      <Gate ID="G13" />
+      <Gate ID="G17" />
+      <Gate ID="G18" />
+    </Gate>
+    <Gate ID="G12" />
+    <Gate ID="G13" />
+    <Gate ID="G17" />
+    <Gate ID="G18" />
+    <Gate ID="G8">
+      <Gate ID="G14" />
+      <Gate ID="G15" />
+      <Gate ID="G16" />
+    </Gate>
+    <Gate ID="G14" />
+    <Gate ID="G15" />
+    <Gate ID="G16" />
+    <Gate ID="G9" />
+    <Gate ID="G10" />
+    <Gate ID="G11" />
+  </Links>
+  <Nodes>
+    <Gate ID="G1" Logic="OR" />
+    <Gate ID="G2" Logic="OR" />
+    <Gate ID="G3" Logic="OR" />
+    <Gate ID="G19" Logic="OR" />
+    <Gate ID="G4" Logic="OR" />
+    <Gate ID="G5" Logic="AND" />
+    <Gate ID="G7" Logic="OR" />
+    <Evt ID="E1" Lmd="" />
+    <Evt ID="E2" Lmd="" />
+    <Evt ID="E3" Lmd="" Ti="" />
+    <Evt ID="E4" Val="" />
+    <Gate ID="G6" Logic="PAND" />
+    <Gate ID="G12" Logic="OR" />
+    <Gate ID="G13" Logic="OR" />
+    <Gate ID="G17" Logic="OR" />
+    <Gate ID="G18" Logic="INH" />
+    <Gate ID="G8" Logic="OR" />
+    <Gate ID="G14" Logic="OR" />
+    <Gate ID="G15" Logic="OR" />
+    <Gate ID="G16" Logic="OR" />
+    <Gate ID="G9" Logic="INH" />
+    <Gate ID="G10" Logic="OR" />
+    <Gate ID="G11" Logic="OR" />
+  </Nodes>
+</FTProject>
