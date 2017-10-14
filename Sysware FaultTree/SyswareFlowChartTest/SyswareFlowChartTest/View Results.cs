@@ -232,5 +232,10 @@ namespace SyswareFlowChartTest
 
             _orderCSList = _orderCSList.Distinct(new Compare()).ToList();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -144,7 +144,14 @@ namespace SyswareFlowChartTest
             get;
             set;
         }
-        
+        /// <summary>
+        /// 分页
+        /// </summary>
+        public bool isPager 
+        { 
+            get; 
+            set; 
+        }
         public NodeInfos(string code)
         {
             this.Code = code;

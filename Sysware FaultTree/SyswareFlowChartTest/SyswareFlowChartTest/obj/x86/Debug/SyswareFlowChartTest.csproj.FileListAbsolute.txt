@@ -164,14 +164,12 @@ C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\D
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.pdb
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.exe
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\SyswareFlowChartTest.pdb
-C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\Cutset.dll
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.dll
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Common.WinForms.dll
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.dll
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.Controls.dll
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Diagramming.WinForms.dll
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Licensing.dll
-C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\ProbCal.dll
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Vsx.dll
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Mapping.dll
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\MindFusion.Barcodes.dll
@@ -191,3 +189,6 @@ C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\D
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csproj.GenerateResource.Cache
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\bin\Debug\smileNet.dll
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csprojResolveAssemblyReference.cache
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.MsgForm.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.ExitConfirmForm.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.AboutForm.resources

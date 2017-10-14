@@ -95,6 +95,7 @@
             // 
             // comboBoxMLX
             // 
+            this.comboBoxMLX.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxMLX.FormattingEnabled = true;
             this.comboBoxMLX.Location = new System.Drawing.Point(87, 108);
             this.comboBoxMLX.Name = "comboBoxMLX";

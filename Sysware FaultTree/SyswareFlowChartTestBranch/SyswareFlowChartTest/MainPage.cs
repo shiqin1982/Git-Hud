@@ -72,6 +72,7 @@ namespace SyswareFlowChartTest
             nodeInfo.Name = "顶事件";
             nodeInfo.ItemType = "顶";
             nodeInfo.Type = NodeType.与门;
+            nodeInfo.isPager = true;
             root.Tag = nodeInfo;
             UserLayOut();
             createTopNode();
@@ -99,8 +100,13 @@ namespace SyswareFlowChartTest
             //selectRootNodeTag.ContainsNodes.Add(new NameCodeType(nodeInfo.Code, nodeInfo.ItemType));
             this.diagram1.Factory.CreateDiagramLink(selectRootNode, node);
             UserLayOut();
-            createDoorNode(selectRootNode, node);
             m_doorSequ++;
+            //勾选分页则创建
+            if (nodeInfo.isPager)
+            {
+                createDoorNode(node);
+            }
+
         }
         /// <summary>
         /// 创建门节点样式
@@ -140,10 +146,10 @@ namespace SyswareFlowChartTest
 
 	},
     new ElementTemplate[] 
-    {
+	{
 		new LineTemplate(50, 45, 50, 40, Color.FromName("Black"), DashStyle.Custom, -1),
-        new LineTemplate(40,100,40,105),
-        new LineTemplate (60,100,60,105)
+		new LineTemplate(40,100,40,105),
+		new LineTemplate (60,100,60,105)
 	},
     null,
     FillMode.Winding, "test",
@@ -195,7 +201,7 @@ namespace SyswareFlowChartTest
         {
             node.Shape = new Shape(
     new ElementTemplate[]
-    {
+	{
 		
 	},
     new ElementTemplate[] {
@@ -221,7 +227,7 @@ namespace SyswareFlowChartTest
 		),new ShapeDecoration(	
 			new ElementTemplate[]
 			{
-        new LineTemplate(25,75,25,60),                     
+		new LineTemplate(25,75,25,60),                     
 				new BezierTemplate(25, 60, 25, 40, 75f, 40, 75, 60),
 				new LineTemplate(75, 60, 75, 100),
 				new LineTemplate(75, 100, 75, 100),
@@ -259,9 +265,9 @@ namespace SyswareFlowChartTest
 	},
     new ElementTemplate[] {
 		new LineTemplate(50, 45, 50, 40),
-        new LineTemplate(25,95,75,95),
-        new LineTemplate(40, 100, 40, 105),
-        new LineTemplate(60, 100, 60, 105)
+		new LineTemplate(25,95,75,95),
+		new LineTemplate(40, 100, 40, 105),
+		new LineTemplate(60, 100, 60, 105)
 	},
     null,
     FillMode.Winding, "test",
@@ -285,7 +291,7 @@ namespace SyswareFlowChartTest
 				new BezierTemplate(25, 60, 25, 40, 75f, 40, 75, 60),
 				new LineTemplate(75, 60, 75, 100),
 				new LineTemplate(75, 100, 25, 100)
-               
+			   
 				//new BezierTemplate(75, 100, 60, 85, 45f, 85, 25, 100)
 			},
 			new MindFusion.Drawing.SolidBrush(Color.FromArgb(255, 128, 128, 255)),
@@ -494,8 +500,8 @@ namespace SyswareFlowChartTest
 	},
     new ElementTemplate[] {
 		new LineTemplate(50, 45, 50, 40),
-        //new LineTemplate(40, 90, 40, 100),
-        //new LineTemplate(60, 90, 60, 100),
+		//new LineTemplate(40, 90, 40, 100),
+		//new LineTemplate(60, 90, 60, 100),
 		
 	},
     null,
@@ -516,12 +522,12 @@ namespace SyswareFlowChartTest
 		),new ShapeDecoration(	
 			new ElementTemplate[]
 			{
-                new LineTemplate(20, 80, 20, 60),
-                new BezierTemplate(20, 60, 40, 40, 60f, 40, 80, 60),
-                new LineTemplate(80, 60, 80, 80),
-                new LineTemplate(80, 80, 80, 90),
-                new BezierTemplate(80, 90, 60, 100, 40f, 100, 20, 90),
-                new LineTemplate(20, 90, 20, 80)
+				new LineTemplate(20, 80, 20, 60),
+				new BezierTemplate(20, 60, 40, 40, 60f, 40, 80, 60),
+				new LineTemplate(80, 60, 80, 80),
+				new LineTemplate(80, 80, 80, 90),
+				new BezierTemplate(80, 90, 60, 100, 40f, 100, 20, 90),
+				new LineTemplate(20, 90, 20, 80)
 			},
 			new MindFusion.Drawing.SolidBrush(Color.FromArgb(255, 128, 128, 255)),
 			FillMode.Winding,
@@ -580,8 +586,8 @@ namespace SyswareFlowChartTest
 				new LineTemplate(30, 50, 70, 50),
 				new LineTemplate(70, 50, 70, 50),
 				new BezierTemplate(70, 50, 100, 50, 100f, 90, 70, 90),
-                //new LineTemplate(70, 90, 30, 90),
-                //new LineTemplate(30, 90, 30, 90),
+				//new LineTemplate(70, 90, 30, 90),
+				//new LineTemplate(30, 90, 30, 90),
 				new BezierTemplate(30, 90, 0, 80, 0f, 60, 30, 50)
 			},
 			new MindFusion.Drawing.SolidBrush(Color.FromArgb(255, 128, 128, 255)),
@@ -638,8 +644,8 @@ namespace SyswareFlowChartTest
 			new ElementTemplate[]
 			{
 				new LineTemplate(20, 70, 50, 50),
-                //new LineTemplate(50, 50, 80, 70),
-                //new LineTemplate(80, 70, 80, 80),
+				//new LineTemplate(50, 50, 80, 70),
+				//new LineTemplate(80, 70, 80, 80),
 				new LineTemplate(80, 80, 50, 100),
 				new LineTemplate(50, 100, 20, 80),
 				new LineTemplate(20, 80, 20, 70)
@@ -672,7 +678,7 @@ namespace SyswareFlowChartTest
             node.Shape = new Shape(
   new ElementTemplate[]
 	{
-        
+		
 		/*new LineTemplate(0, 0, 100, 0),
 		new LineTemplate(100, 0, 100, 100),
 		new LineTemplate(100, 100, 0, 100),
@@ -680,12 +686,12 @@ namespace SyswareFlowChartTest
 	},
     new ElementTemplate[] {
 		new LineTemplate(50, 45, 50, 40, Color.FromName("Black"), DashStyle.Custom, -1),
-        //new LineTemplate(40, 90, 40, 100, Color.FromName("Black"), DashStyle.Custom, -1),
-        //new LineTemplate(60, 90, 60, 100),
-        
+		//new LineTemplate(40, 90, 40, 100, Color.FromName("Black"), DashStyle.Custom, -1),
+		//new LineTemplate(60, 90, 60, 100),
+		
 		
 	},
-    
+
   null,
   FillMode.Winding, "test",
   new ShapeDecoration[]
@@ -697,10 +703,10 @@ namespace SyswareFlowChartTest
 				new LineTemplate(100, 20, 100, 40),
 				new LineTemplate(100, 40, 0, 40),
 				new LineTemplate(0, 40, 0, 20),
-                new LineTemplate (0,55,10,55),
-                new LineTemplate(10,55,10,45),
-                new LineTemplate(10,45,0,45),
-                new LineTemplate(0,45,0,55)
+				new LineTemplate (0,55,10,55),
+				new LineTemplate(10,55,10,45),
+				new LineTemplate(10,45,0,45),
+				new LineTemplate(0,45,0,55)
 			},
 			new MindFusion.Drawing.SolidBrush(Color.FromArgb(255, 128, 128, 255)),
 			FillMode.Winding,
@@ -756,8 +762,8 @@ namespace SyswareFlowChartTest
 		new ShapeDecoration(	
 			new ElementTemplate[]
 			{
-                new LineTemplate(0, 0, 100, 0),
-                new LineTemplate(100, 20, 100, 40),
+				new LineTemplate(0, 0, 100, 0),
+				new LineTemplate(100, 20, 100, 40),
 				new LineTemplate(100, 40, 0, 40),
 				new LineTemplate(0, 40, 0, 20)
 			},
@@ -948,7 +954,7 @@ namespace SyswareFlowChartTest
 
             if (this.diagram1.ActiveItem == null) 
              * return;
-            
+			
             if (this.diagram1.ActiveItem is ShapeNode)
             {
                 ShapeNode current = (ShapeNode)this.diagram1.ActiveItem;
@@ -1029,6 +1035,7 @@ namespace SyswareFlowChartTest
                 stacks.Push(next);
                 GetSubItems(next, stacks);
             }
+
         }
         private void GetSubItems(ShapeNode current, bool isCopy)
         {
@@ -1258,6 +1265,7 @@ namespace SyswareFlowChartTest
                         {
                             Snode = dlg.m_nodeInfo;
                             current.Tag = Snode;
+                            ShapeNode node = this.diagram1.Factory.CreateShapeNode(m_nodeBounds);
                             CreateDoor(Snode.Type, current);
                         }
                     }
@@ -1273,6 +1281,10 @@ namespace SyswareFlowChartTest
                             Snode = dlg.m_nodeInfo;
                             current.Tag = Snode;
                             CreateDoor(Snode.Type, current);
+                            if (dlg.m_nodeInfo.isPager)
+                            {
+                                createDoorNode(current);
+                            }
                         }
                     }
 
@@ -1284,6 +1296,7 @@ namespace SyswareFlowChartTest
                     {
                         if (dlg.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                         {
+
                             Snode = dlg.m_nodeInfo;
                             current.Tag = Snode;
                             CreateBotNode(Snode.AffaType, current);
@@ -1565,6 +1578,17 @@ namespace SyswareFlowChartTest
                 GetSubItems(next, links, nodes);
             }
         }
+
+        private void GetSubItems(ShapeNode current, Stack<ShapeNode> stacks)
+        {
+            foreach (var link in this.diagram1.Links.Where(w => w.Origin == current))
+            {
+                ShapeNode next = (ShapeNode)link.Destination;
+                stacks.Push(next);
+                GetSubItems(next, stacks);
+            }
+        }
+
         private string GetNodeType(NodeType type)
         {
             string str = "";
@@ -1723,9 +1747,8 @@ namespace SyswareFlowChartTest
             ImageList il = new ImageList();
             Image image = Properties.Resources.triangle;
             il.Images.Add(image);
-            treeView1.ImageList = il;
+            this.treeView1.ImageList = il;
         }
-
         private void createTopNode()
         {
             //新建top节点时，先将所有节点删除
@@ -1733,59 +1756,140 @@ namespace SyswareFlowChartTest
             TreeNode tNode = new TreeNode();
             tNode.Text = "Top";
             tNode.Name = "T";
-            tNode.ImageIndex = 1;
-            tNode.SelectedImageIndex = 1;
-            //tNode.StateImageIndex = 1;
+            tNode.ImageIndex = tNode.SelectedImageIndex = 1;
             treeView1.Nodes.Add(tNode);
         }
-
-        private void createDoorNode(ShapeNode parentNode, ShapeNode node)
+        /// <summary>
+        /// 创建一个分页树节点
+        /// </summary>
+        /// <param name="parentNode">父节点</param>
+        /// <param name="node">对应的shapeNode</param>
+        private void createDoorNode(ShapeNode node)
         {
             TreeNode tNode = new TreeNode();
-            tNode.ImageIndex = 1;
-            tNode.SelectedImageIndex = 1;
-            //tNode.StateImageIndex = 1;
+            tNode.ImageIndex = tNode.SelectedImageIndex = 1;
             tNode.Text = node.Text;
             tNode.Name = ((SyswareFlowChartTest.NodeInfos)(node.Tag)).Code;
-            string parentName = ((SyswareFlowChartTest.NodeInfos)(node.Tag)).ParentCode;
-            TreeNode[] td = treeView1.Nodes.Find(((SyswareFlowChartTest.NodeInfos)(parentNode.Tag)).Code, true);
-
-            if(td.Length == 1){
+            
+            string parentNodeCode = GetParentCode(node);
+            TreeNode[] td = treeView1.Nodes.Find(parentNodeCode, true);
+            if (td.Length == 1)
+            {
                 td[0].Nodes.Add(tNode);
                 treeView1.SelectedNode = tNode;
-
             }
-            
-        }
-
-        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
-        {
-            if (treeView1.SelectedNode != null)
+            else
             {
-                //MessageBox.Show(treeView1.SelectedNode.Text);
+                td = treeView1.Nodes.Find("T", true);
+                td[0].Nodes.Add(tNode);
+                treeView1.SelectedNode = tNode;
             }
+
+        }
+        /// <summary>
+        /// 根据传入节点返回是分页的父节点
+        /// </summary>
+        /// <param name="current"></param>
+        /// <returns></returns>
+        private string GetParentCode(ShapeNode current)
+        {
+            NodeInfos nis = current.Tag as NodeInfos;
+            string parentCode = nis.ParentCode;
+            ShapeNode parentNode = new ShapeNode();          
+            bool isPager = false;
+            while (!isPager)
+            {
+                foreach (ShapeNode n in this.diagram1.Nodes.Where(i => ((NodeInfos)i.Tag).Code == parentCode))
+                {
+                    isPager = (n.Tag as NodeInfos).isPager;
+                    if (isPager)
+                    {
+                        parentNode = n;
+                        break;
+                    }
+                    else
+                    {
+                        parentCode = (n.Tag as NodeInfos).ParentCode;
+                    }
+                }
+            }
+
+            return (parentNode.Tag as NodeInfos).Code; 
         }
 
-        private void treeView1_AfterCollapse(object sender, TreeViewEventArgs e)
+        private ShapeNode GetParentNode(ShapeNode node)
         {
-            if (e.Node == treeView1.Nodes[0])
+            ShapeNode pNode = new ShapeNode();
+            string parentCode = (node.Tag as NodeInfos).ParentCode;
+            foreach (ShapeNode n in this.diagram1.Nodes.Where(i => ((NodeInfos)i.Tag).Code == parentCode))
+            {
+                pNode = n;
+                break;
+            }
+            return pNode;
+        }
+
+        private void treeView1_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            //循环找到点击树结构节点对应的shapeNode
+            ShapeNode currentSNode = new ShapeNode();
+            for (int i = 0; i < this.diagram1.Nodes.Count; i++)
+            {
+                ShapeNode node = (ShapeNode)this.diagram1.Nodes[i];
+                NodeInfos nodeInfo = node.Tag as NodeInfos;
+                NodeInfos pnodeInfo = node.Parent.Tag as NodeInfos;
+                if (nodeInfo.Code == e.Node.Name)
+                {
+                    currentSNode = node;
+                }
+
+            }
+            //通过点击的节点，找到所有子节点
+            Stack<ShapeNode> stacks = new Stack<ShapeNode>();
+            if (currentSNode == null)
             {
                 return;
             }
-            e.Node.SelectedImageIndex = 1;
-            e.Node.ImageIndex = 1;
-        }
-
-        private void treeView1_AfterExpand(object sender, TreeViewEventArgs e)
-        {
-            if (e.Node == treeView1.Nodes[0])
+            else
             {
-                return;
+                stacks.Push(currentSNode);
+                GetSubItems(currentSNode, stacks);
             }
-            e.Node.SelectedImageIndex = 1;
-            e.Node.ImageIndex = 1;
+
+            //先将所有节点和节点之间的连接线隐藏
+            for (int i = 0; i < this.diagram1.Nodes.Count; i++)
+            {
+                ShapeNode node = (ShapeNode)this.diagram1.Nodes[i];
+                node.Visible = false;
+            }
+            for (int i = 0; i < this.diagram1.Links.Count; i++)
+            {
+                DiagramLink link = this.diagram1.Links[i];
+                link.Visible = false;
+            }
+            //再将选中的节点进行展示
+            foreach (ShapeNode node2 in stacks)
+            {
+                NodeInfos nodeInfo2 = node2.Tag as NodeInfos;
+                for (int i = 0; i < this.diagram1.Nodes.Count; i++)
+                {
+                    ShapeNode node = (ShapeNode)this.diagram1.Nodes[i];
+                    NodeInfos nodeInfo = node.Tag as NodeInfos;
+
+                    if (nodeInfo.Code == nodeInfo2.Code)
+                    {
+                        node2.Visible = true;
+                        for (int j = 0; j < node2.OutgoingLinks.Count; j++)
+                        {
+                            node2.OutgoingLinks[j].Visible = true;
+                        }
+
+                    }
+                }
+            }
         }
 
         #endregion
     }
 }
+

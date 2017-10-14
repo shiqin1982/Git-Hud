@@ -36,6 +36,7 @@ namespace SyswareFlowChartTest
             this.textBoxFPGL.Text = m_nodeInfo.Fpgl;
             this.richTextBoxGLMS.Text = m_nodeInfo.Glms;
             this.richTextBoxJDMS.Text = m_nodeInfo.Jdms;
+            this.checkBoxFY.Checked = m_nodeInfo.isPager;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -45,6 +46,7 @@ namespace SyswareFlowChartTest
             m_nodeInfo.Fpgl = this.textBoxFPGL.Text;
             m_nodeInfo.Glms = this.richTextBoxGLMS.Text;
             m_nodeInfo.Jdms = this.richTextBoxJDMS.Text;
+            m_nodeInfo.isPager = this.checkBoxFY.Checked;
         }
         private NodeType SetType()
         {

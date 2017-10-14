@@ -110,6 +110,7 @@
             // 
             // comboBoxMLX
             // 
+            this.comboBoxMLX.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxMLX.FormattingEnabled = true;
             this.comboBoxMLX.Location = new System.Drawing.Point(81, 95);
             this.comboBoxMLX.Name = "comboBoxMLX";
@@ -226,6 +227,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "基本",
@@ -235,7 +237,6 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(173, 20);
             this.comboBox1.TabIndex = 39;
-            this.comboBox1.Text = "基本";
             // 
             // label11
             // 

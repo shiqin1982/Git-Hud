@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\export.png" />
+    <Content Include="Resources\triangle.png" />
     <Content Include="Sysware.ico" />
   </ItemGroup>
   <ItemGroup>

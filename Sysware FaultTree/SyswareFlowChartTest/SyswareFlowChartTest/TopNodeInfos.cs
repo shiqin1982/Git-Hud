@@ -101,7 +101,6 @@ namespace SyswareFlowChartTest
         public NameCodeType.Collection ContainsNodes
         {
             get;
-
             set;
         }
         /// <summary>
@@ -129,7 +128,7 @@ namespace SyswareFlowChartTest
             set;
         }
         /// <summary>
-        /// 节点类型
+        /// 节点类型(门 ， 底 )
         /// </summary>
         public string ItemType
         {
@@ -144,10 +143,43 @@ namespace SyswareFlowChartTest
             get;
             set;
         }
-        
+        /// <summary>
+        /// 分页
+        /// </summary>
+        public bool isPager
+        {
+            get;
+            set;
+        }
         public NodeInfos(string code)
         {
             this.Code = code;
+            ContainsNodes = new NameCodeType.Collection();
+        }
+        public NodeInfos Clone()
+        {
+            NodeInfos ni = new NodeInfos(this.Code);
+            ni.Name = this.Name;
+            ni.Type = this.Type;
+            ni.AffaType = this.AffaType;
+            ni.Fpgl = this.Fpgl;
+            ni.Fxxs = this.Fxxs;
+            ni.Glms = this.Glms;
+            ni.Gzl = this.Gzl;
+            ni.Jdms = this.Jdms;
+            ni.Jszq = this.Jszq;
+            ni.Mxlj = this.Mxlj;
+            ni.Pjsxgl = this.Pjsxgl;
+            ni.ItemType = this.ItemType;
+            ni.ParentCode = this.ParentCode;
+            if (this.ContainsNodes != null)
+            {
+                foreach (NameCodeType nct in this.ContainsNodes)
+                    ni.ContainsNodes.Add(nct.Clone());
+            }
+            else ni.ContainsNodes = null;
+
+            return ni;
         }
     }
     [Serializable]
@@ -193,10 +225,16 @@ namespace SyswareFlowChartTest
             set;
         }
 
-        public NameCodeType(string code,string type)
+        public NameCodeType(string code, string type)
         {
             this.Code = code;
             this.Type = type;
+        }
+        public NameCodeType Clone()
+        {
+            NameCodeType nct = new NameCodeType(this.Code, this.Type);
+            nct.Name = this.Name;
+            return nct;
         }
     }
     /// <summary>
@@ -342,7 +380,7 @@ namespace SyswareFlowChartTest
         或门 = 2,//"与门",
         优先与门 = 3,//"优先与门",
         禁止门 = 4,//"禁止门",       
-    };   
+    };
     /// <summary>
     /// 事件类型
     /// </summary>
@@ -356,7 +394,7 @@ namespace SyswareFlowChartTest
         条件事件 = 4,//
         隐蔽事件 = 5,//
     };
-   
+
     public class BaseCommonFunc
     {
         /// <summary>
@@ -385,5 +423,12 @@ namespace SyswareFlowChartTest
             ms.Close();
             return cd;
         }
+    }
+
+    [Serializable]
+    public class NodeSequence
+    {
+        public int DoorSeq = 1;
+        public int EventSeq = 1;
     }
 }

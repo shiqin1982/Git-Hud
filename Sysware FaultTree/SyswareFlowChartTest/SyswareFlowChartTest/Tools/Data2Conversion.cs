@@ -14,41 +14,6 @@ namespace SyswareFlowChartTest.Tools
     {
 
         //将xml转为Datable
-        public static DataTable Xml2DataTable(string xmlStr)
-        {
-            if (!string.IsNullOrEmpty(xmlStr))
-            {
-                StringReader StrStream = null;
-                XmlTextReader Xmlrdr = null;
-                try
-                {
-                    DataSet ds = new DataSet();
-                    //读取字符串中的信息
-                    StrStream = new StringReader(xmlStr);
-                    //获取StrStream中的数据
-                    Xmlrdr = new XmlTextReader(StrStream);
-                    //ds获取Xmlrdr中的数据               
-                    ds.ReadXml(Xmlrdr);
-                    return ds.Tables[0];
-                }
-                catch (Exception e)
-                {
-                    return null;
-                }
-                finally
-                {
-                    //释放资源
-                    if (Xmlrdr != null)
-                    {
-                        Xmlrdr.Close();
-                        StrStream.Close();
-                        StrStream.Dispose();
-                    }
-                }
-            }
-            return null;
-        }
-
         public static DataTable ConvertXml2DataTable(string xmlData)
         {
             StringReader stream = null;
@@ -97,6 +62,28 @@ namespace SyswareFlowChartTest.Tools
                 dt.Rows.Add(dr);
             }
 
+            return dt;
+        }
+
+        public static DataTable List2DataTable<T>(IEnumerable<T> collection)
+        {
+            var props = typeof(T).GetProperties();
+            var dt = new DataTable();
+            dt.Columns.AddRange(props.Select(p => new DataColumn(p.Name, p.PropertyType)).ToArray());
+            if (collection.Count() > 0)
+            {
+                for (int i = 0; i < collection.Count(); i++)
+                {
+                    ArrayList tempList = new ArrayList();
+                    foreach (PropertyInfo pi in props)
+                    {
+                        object obj = pi.GetValue(collection.ElementAt(i), null);
+                        tempList.Add(obj);
+                    }
+                    object[] array = tempList.ToArray();
+                    dt.LoadDataRow(array, true);
+                }
+            }
             return dt;
         }
         
