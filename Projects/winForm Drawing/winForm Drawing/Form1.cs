@@ -8,7 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
-using System.Object;
+using System.Windows.Media.Animation;
+using System.Windows;
+using System.Windows.Media.Animation.EasingFunctionBase;
+
 
 namespace winForm_Drawing
 {
