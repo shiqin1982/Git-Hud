@@ -7,3 +7,6 @@ C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Multiline\Multiline\bin\Deb
 C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Multiline\Multiline\bin\Debug\Multiline.pdb
 C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Multiline\Multiline\obj\Debug\Multiline.exe
 C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Multiline\Multiline\obj\Debug\Multiline.pdb
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\Multiline\Multiline\bin\Debug\Multiline.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\Multiline\Multiline\obj\Debug\Multiline.exe
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\Multiline\Multiline\obj\Debug\Multiline.pdb
