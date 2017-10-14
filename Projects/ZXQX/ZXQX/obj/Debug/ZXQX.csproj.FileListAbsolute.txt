@@ -1,4 +1,0 @@
-c:\users\edwin\documents\visual studio 2013\Projects\ZXQX\ZXQX\bin\Debug\ZXQX.exe.config
-c:\users\edwin\documents\visual studio 2013\Projects\ZXQX\ZXQX\obj\Debug\ZXQX.csprojResolveAssemblyReference.cache
-c:\users\edwin\documents\visual studio 2013\Projects\ZXQX\ZXQX\obj\Debug\ZXQX.Properties.Resources.resources
-c:\users\edwin\documents\visual studio 2013\Projects\ZXQX\ZXQX\obj\Debug\ZXQX.csproj.GenerateResource.Cache

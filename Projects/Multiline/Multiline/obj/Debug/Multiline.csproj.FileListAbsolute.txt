@@ -1,9 +1,0 @@
-c:\users\edwin\documents\visual studio 2013\Projects\Multiline\Multiline\bin\Debug\Multiline.exe.config
-C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Multiline\Multiline\obj\Debug\Multiline.csprojResolveAssemblyReference.cache
-C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Multiline\Multiline\obj\Debug\Multiline.Form1.resources
-C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Multiline\Multiline\obj\Debug\Multiline.Properties.Resources.resources
-C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Multiline\Multiline\obj\Debug\Multiline.csproj.GenerateResource.Cache
-C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Multiline\Multiline\bin\Debug\Multiline.exe
-C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Multiline\Multiline\bin\Debug\Multiline.pdb
-C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Multiline\Multiline\obj\Debug\Multiline.exe
-C:\Users\Edwin\Documents\Visual Studio 2013\Projects\Multiline\Multiline\obj\Debug\Multiline.pdb
