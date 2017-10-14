@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
+using System.Object;
 
 namespace winForm_Drawing
 {
@@ -25,8 +26,8 @@ namespace winForm_Drawing
             for (int i = 0; i < cur1.Length; i++)
             {
                 double x = (double)i / 10;
-                double y = Math.Sin(x)  + Math.Cos(3 );
-                cur1[i] = new PointF((float)i, (float)(y *30 +150));
+                double y = Math.Sin(x) + Math.Cos(3);
+                cur1[i] = new PointF((float)i, (float)(y * 30 + 150));
             }
             g.DrawLines(Pens.Blue, cur1);
 
@@ -41,7 +42,23 @@ namespace winForm_Drawing
             //}
             //g.DrawLines(Pens.Blue, cur2);
         }
-
-
+        //正弦周期衰减缓动
+        class SpdEase : EsaingFunctionBase
+        {
+            private double A;
+            private double B;
+            private int angel = 1;
+            protected override Freezable CreatInstanceCore()
+            {
+                return new SpdEase();
+            }
+            protected override double EaseInCore(double normalizedTime)
+            {
+                A = angel * normalizedTime;
+                W = 360 / (2 * Math.PI);
+                double result = (A * Math.Sin(normalizedTime * W));
+                return result;
+            }
+        }       
     }
 }
