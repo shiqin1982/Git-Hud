@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
-using System.Windows.Media.Animation;
 using System.Windows;
-using System.Windows.Media.Animation.EasingFunctionBase;
+using System.Windows.Media;
+using System.Windows.Media.Animation;
 
 
 namespace winForm_Drawing
