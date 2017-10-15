@@ -1,0 +1,8 @@
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\AfhaForm\bin\Debug\AfhaForm.exe
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\AfhaForm\bin\Debug\AfhaForm.pdb
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\AfhaForm\obj\Debug\AfhaForm.csprojResolveAssemblyReference.cache
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\AfhaForm\obj\Debug\AfhaForm.Form1.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\AfhaForm\obj\Debug\AfhaForm.Properties.Resources.resources
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\AfhaForm\obj\Debug\AfhaForm.csproj.GenerateResource.Cache
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\AfhaForm\obj\Debug\AfhaForm.exe
+C:\Project\Sysware FaultTree\SyswareFlowChartTest\AfhaForm\obj\Debug\AfhaForm.pdb
