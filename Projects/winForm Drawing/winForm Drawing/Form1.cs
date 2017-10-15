@@ -43,13 +43,15 @@ namespace winForm_Drawing
             //}
             //g.DrawLines(Pens.Blue, cur2);
         }
+    
+
         //正弦周期衰减缓动
-        class SpdEase:EasingFunctionBase
+        public class SpdEase:EasingFunctionBase
         {
             private double A;
             private double B;
             private int angel = 1;
-            protected  override Freezable CreatInstanceCore()
+            protected  override  Freezable CreatInstanceCore()
             {
                 return new SpdEase();
             }
