@@ -9,9 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 using System.Windows;
-using System.Windows.Media;
 using System.Windows.Media.Animation;
-
 
 namespace winForm_Drawing
 {
@@ -46,12 +44,12 @@ namespace winForm_Drawing
             //g.DrawLines(Pens.Blue, cur2);
         }
         //正弦周期衰减缓动
-        class SpdEase:EsaingFunctionBase
+        class SpdEase:EasingFunctionBase
         {
             private double A;
             private double B;
             private int angel = 1;
-            protected override Freezable CreatInstanceCore()
+            protected  override Freezable CreatInstanceCore()
             {
                 return new SpdEase();
             }
