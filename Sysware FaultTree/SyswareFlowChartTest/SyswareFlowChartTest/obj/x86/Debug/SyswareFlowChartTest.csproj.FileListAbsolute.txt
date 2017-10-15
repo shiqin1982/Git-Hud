@@ -224,3 +224,5 @@ C:\Users\Edwin\Downloads\软件安装包\Sysware FaultTree\SyswareFlowChartTest\
 C:\Users\Edwin\Downloads\软件安装包\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.SetTopNode.resources
 C:\Users\Edwin\Downloads\软件安装包\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.View_Results.resources
 C:\Users\Edwin\Downloads\软件安装包\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.csproj.GenerateResource.Cache
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.exe
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.pdb
