@@ -1421,7 +1421,7 @@ namespace SyswareFlowChartTest
                 else if (Snode.ItemType == "门")//门
                 {
                     //MessageBox.Show(Snode.Name);
-                    using (SetDoorInfo dlg = new SetDoorInfo(Snode))
+                    using (SetDoorInfo dlg = new SetDoorInfo(Snode,diagram1))
                     {
                         if (dlg.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                         {

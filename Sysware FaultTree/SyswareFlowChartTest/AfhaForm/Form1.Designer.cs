@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.buttonSave = new System.Windows.Forms.Button();
             this.buttonOpen = new System.Windows.Forms.Button();
             this.buttonCalculate = new System.Windows.Forms.Button();
@@ -175,6 +176,7 @@
             this.Controls.Add(this.buttonCalculate);
             this.Controls.Add(this.buttonOpen);
             this.Controls.Add(this.buttonSave);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "PSSA";
             this.Load += new System.EventHandler(this.Form1_Load);

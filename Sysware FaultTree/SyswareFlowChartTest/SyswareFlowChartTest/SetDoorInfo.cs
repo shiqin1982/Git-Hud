@@ -6,19 +6,21 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using MindFusion.Diagramming;
 
 namespace SyswareFlowChartTest
 {
     public partial class SetDoorInfo : Form
     {
         public NodeInfos m_nodeInfo = null;
+        private Diagram mDiagram;
 
-
-        public SetDoorInfo(NodeInfos nodeInfo)
+        public SetDoorInfo(NodeInfos nodeInfo, Diagram diagram)
         {
             InitializeComponent();
 
             m_nodeInfo = nodeInfo;
+            mDiagram = diagram;
         }
         private void SetDoorInfo_Load(object sender, EventArgs e)
         {
@@ -37,12 +39,51 @@ namespace SyswareFlowChartTest
             this.richTextBoxGLMS.Text = m_nodeInfo.Glms;
             this.richTextBoxJDMS.Text = m_nodeInfo.Jdms;
             this.checkBoxFY.Checked = m_nodeInfo.isPager;
+
+            LoadSubNode();
+        }
+        /// <summary>
+        /// 加载门的子节点，包括底节点。
+        /// </summary>
+        private void LoadSubNode()
+        {
+            foreach (NameCodeType nct in m_nodeInfo.ContainsNodes)
+            {
+                //SyswareNode sn = mDiagram .Items .Where (w => w.)
+                SyswareNode sn = GetNode(nct);
+                if (sn == null)
+                    continue;
+                AddRow(sn);
+            }
+        }
+        private void AddRow(SyswareNode sn)
+        {
+            NodeInfos ni = sn.Tag as NodeInfos;
+            int index = this.dataGridView1.Rows.Add();
+            dataGridView1.Rows[index].Cells[0].Value = ni.Code;
+            dataGridView1.Rows[index].Cells[1].Value = ni.Gzl;
+            dataGridView1.Rows[index].Cells[2].Value = ni.Fpgl;
+
+        }
+        private SyswareNode GetNode(NameCodeType nct)
+        {
+            SyswareNode ret = null;
+            foreach (DiagramItem di in mDiagram.Items)
+            {
+                if (di.GetType().Name != "SyswareNode")
+                    continue;
+                SyswareNode sn = (SyswareNode)di;
+                NodeInfos ni = sn.Tag as NodeInfos;
+                if (ni.Code == nct.Code)
+                { ret = sn; break; }
+            }
+            return ret;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             m_nodeInfo.Name = this.textBoxJDMC.Text;
-            m_nodeInfo.Type = SetType(); 
+            m_nodeInfo.Type = SetType();
             m_nodeInfo.Fpgl = this.textBoxFPGL.Text;
             m_nodeInfo.Glms = this.richTextBoxGLMS.Text;
             m_nodeInfo.Jdms = this.richTextBoxJDMS.Text;
@@ -59,6 +100,12 @@ namespace SyswareFlowChartTest
             if (this.comboBoxMLX.Text == "禁止门")
                 return NodeType.禁止门;
             return NodeType.或门;
+        }
+
+        // 分配计算。
+        private void buttonCal_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
