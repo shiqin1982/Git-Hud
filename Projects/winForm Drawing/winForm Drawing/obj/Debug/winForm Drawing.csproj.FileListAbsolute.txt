@@ -30,3 +30,5 @@ C:\Users\Edwin\Desktop\Projects\winForm Drawing\winForm Drawing\obj\Debug\winFor
 C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\winForm Drawing\winForm Drawing\obj\Debug\winForm_Drawing.Form1.resources
 C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\winForm Drawing\winForm Drawing\obj\Debug\winForm_Drawing.Properties.Resources.resources
 C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\winForm Drawing\winForm Drawing\obj\Debug\winForm Drawing.csproj.GenerateResource.Cache
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\winForm Drawing\winForm Drawing\bin\Debug\winForm Drawing.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\winForm Drawing\winForm Drawing\obj\Debug\winForm Drawing.csprojResolveAssemblyReference.cache
