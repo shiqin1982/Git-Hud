@@ -46,7 +46,7 @@ namespace winForm_Drawing
             //g.DrawLines(Pens.Blue, cur2);
         }
         //正弦周期衰减缓动
-        class SpdEase : EsaingFunctionBase
+        class SpdEase:EsaingFunctionBase
         {
             private double A;
             private double B;
