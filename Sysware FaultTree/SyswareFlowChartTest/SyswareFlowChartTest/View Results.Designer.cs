@@ -77,7 +77,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 31);
+            this.label1.Location = new System.Drawing.Point(26, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 12);
             this.label1.TabIndex = 0;
@@ -85,10 +85,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(111, 21);
+            this.textBox1.Location = new System.Drawing.Point(87, 21);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(411, 56);
+            this.textBox1.Size = new System.Drawing.Size(425, 56);
             this.textBox1.TabIndex = 1;
             // 
             // groupBox1
@@ -140,7 +140,7 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
-            this.dataGridView1.Location = new System.Drawing.Point(17, 18);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 6);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
@@ -149,7 +149,7 @@
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(200, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(246, 200);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
@@ -166,6 +166,7 @@
             this.Column2.HeaderText = "割集个数";
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
+            this.Column2.Width = 140;
             // 
             // dataGridView2
             // 
@@ -182,7 +183,7 @@
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.cutSetNames});
-            this.dataGridView2.Location = new System.Drawing.Point(273, 18);
+            this.dataGridView2.Location = new System.Drawing.Point(274, 6);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
             this.dataGridView2.RowHeadersVisible = false;
@@ -190,7 +191,7 @@
             this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView2.RowTemplate.Height = 23;
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView2.Size = new System.Drawing.Size(200, 150);
+            this.dataGridView2.Size = new System.Drawing.Size(204, 200);
             this.dataGridView2.TabIndex = 1;
             // 
             // cutSetNames
@@ -216,6 +217,7 @@
             // dataGridView3
             // 
             this.dataGridView3.AllowUserToAddRows = false;
+            this.dataGridView3.AllowUserToDeleteRows = false;
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle5.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -230,14 +232,15 @@
             this.PrbI,
             this.FVI,
             this.strtI});
-            this.dataGridView3.Location = new System.Drawing.Point(28, 6);
+            this.dataGridView3.Location = new System.Drawing.Point(6, 6);
             this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.ReadOnly = true;
             this.dataGridView3.RowHeadersVisible = false;
             dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridView3.RowTemplate.Height = 23;
             this.dataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView3.Size = new System.Drawing.Size(400, 200);
+            this.dataGridView3.Size = new System.Drawing.Size(472, 200);
             this.dataGridView3.TabIndex = 0;
             // 
             // i
@@ -246,6 +249,7 @@
             this.i.Frozen = true;
             this.i.HeaderText = "底事件名称";
             this.i.Name = "i";
+            this.i.ReadOnly = true;
             // 
             // PrbI
             // 
@@ -256,6 +260,8 @@
             this.PrbI.Frozen = true;
             this.PrbI.HeaderText = "概率重要度";
             this.PrbI.Name = "PrbI";
+            this.PrbI.ReadOnly = true;
+            this.PrbI.Width = 110;
             // 
             // FVI
             // 
@@ -266,6 +272,8 @@
             this.FVI.Frozen = true;
             this.FVI.HeaderText = "关键重要度";
             this.FVI.Name = "FVI";
+            this.FVI.ReadOnly = true;
+            this.FVI.Width = 110;
             // 
             // strtI
             // 
@@ -276,6 +284,8 @@
             this.strtI.Frozen = true;
             this.strtI.HeaderText = "结构重要度";
             this.strtI.Name = "strtI";
+            this.strtI.ReadOnly = true;
+            this.strtI.Width = 110;
             // 
             // tabPage3
             // 
@@ -305,7 +315,7 @@
             this.sjName,
             this.Type,
             this.Fpgl});
-            this.dataGridView4.Location = new System.Drawing.Point(43, 15);
+            this.dataGridView4.Location = new System.Drawing.Point(6, 6);
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.ReadOnly = true;
             this.dataGridView4.RowHeadersVisible = false;
@@ -314,7 +324,7 @@
             this.dataGridView4.RowTemplate.Height = 23;
             this.dataGridView4.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView4.Size = new System.Drawing.Size(301, 180);
+            this.dataGridView4.Size = new System.Drawing.Size(472, 200);
             this.dataGridView4.TabIndex = 0;
             // 
             // sjName
@@ -323,6 +333,7 @@
             this.sjName.HeaderText = "事件名称";
             this.sjName.Name = "sjName";
             this.sjName.ReadOnly = true;
+            this.sjName.Width = 110;
             // 
             // Type
             // 
@@ -330,6 +341,7 @@
             this.Type.HeaderText = "事件类型";
             this.Type.Name = "Type";
             this.Type.ReadOnly = true;
+            this.Type.Width = 150;
             // 
             // Fpgl
             // 
@@ -337,6 +349,7 @@
             this.Fpgl.HeaderText = "概率分配";
             this.Fpgl.Name = "Fpgl";
             this.Fpgl.ReadOnly = true;
+            this.Fpgl.Width = 150;
             // 
             // tabPage4
             // 
@@ -362,7 +375,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(532, 390);
+            this.ClientSize = new System.Drawing.Size(532, 383);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.textBox1);
@@ -370,8 +383,11 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(548, 422);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(548, 422);
             this.Name = "View_Results";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "计算结果显示";
             this.Load += new System.EventHandler(this.View_Results_Load);
             this.groupBox1.ResumeLayout(false);
@@ -402,14 +418,14 @@
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cutSetNames;
+        private System.Windows.Forms.DataGridView dataGridView4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn i;
         private System.Windows.Forms.DataGridViewTextBoxColumn PrbI;
         private System.Windows.Forms.DataGridViewTextBoxColumn FVI;
         private System.Windows.Forms.DataGridViewTextBoxColumn strtI;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cutSetNames;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridView dataGridView4;
         private System.Windows.Forms.DataGridViewTextBoxColumn sjName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Type;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fpgl;

@@ -70,6 +70,7 @@
     <Compile Include="AboutForm.designer.cs">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CalGL.cs" />
     <Compile Include="ExitConfirmForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +114,7 @@
     <Compile Include="SyswareNode.cs" />
     <Compile Include="SyswareTreeNode.cs" />
     <Compile Include="Tools\Data2Conversion.cs" />
+    <Compile Include="Tools\DataGridViewHelper.cs" />
     <Compile Include="TopNodeInfos.cs" />
     <Compile Include="View Results.cs">
       <SubType>Form</SubType>

@@ -28,6 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SetDoorInfo));
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
@@ -48,8 +52,6 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.buttonCal = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.节点编号 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.节点名称 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.复杂度 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -57,6 +59,8 @@
             this.重要度 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.综合权重 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.分配概率 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.buttonCal = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -87,7 +91,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(227, 154);
+            this.label9.Location = new System.Drawing.Point(268, 142);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(23, 12);
             this.label9.TabIndex = 34;
@@ -95,16 +99,16 @@
             // 
             // richTextBoxJDMS
             // 
-            this.richTextBoxJDMS.Location = new System.Drawing.Point(76, 280);
+            this.richTextBoxJDMS.Location = new System.Drawing.Point(93, 267);
             this.richTextBoxJDMS.Name = "richTextBoxJDMS";
-            this.richTextBoxJDMS.Size = new System.Drawing.Size(173, 58);
+            this.richTextBoxJDMS.Size = new System.Drawing.Size(198, 58);
             this.richTextBoxJDMS.TabIndex = 33;
             this.richTextBoxJDMS.Text = "";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(8, 281);
+            this.label8.Location = new System.Drawing.Point(25, 268);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(65, 12);
             this.label8.TabIndex = 32;
@@ -114,23 +118,24 @@
             // 
             this.comboBoxMLX.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxMLX.FormattingEnabled = true;
-            this.comboBoxMLX.Location = new System.Drawing.Point(76, 112);
+            this.comboBoxMLX.Location = new System.Drawing.Point(93, 99);
             this.comboBoxMLX.Name = "comboBoxMLX";
-            this.comboBoxMLX.Size = new System.Drawing.Size(173, 20);
+            this.comboBoxMLX.Size = new System.Drawing.Size(198, 20);
             this.comboBoxMLX.TabIndex = 31;
+            this.comboBoxMLX.SelectedIndexChanged += new System.EventHandler(this.comboBoxMLX_SelectedIndexChanged);
             // 
             // richTextBoxGLMS
             // 
-            this.richTextBoxGLMS.Location = new System.Drawing.Point(77, 191);
+            this.richTextBoxGLMS.Location = new System.Drawing.Point(94, 178);
             this.richTextBoxGLMS.Name = "richTextBoxGLMS";
-            this.richTextBoxGLMS.Size = new System.Drawing.Size(173, 70);
+            this.richTextBoxGLMS.Size = new System.Drawing.Size(197, 70);
             this.richTextBoxGLMS.TabIndex = 30;
             this.richTextBoxGLMS.Text = "";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(8, 194);
+            this.label5.Location = new System.Drawing.Point(25, 181);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(65, 12);
             this.label5.TabIndex = 28;
@@ -138,15 +143,16 @@
             // 
             // textBoxFPGL
             // 
-            this.textBoxFPGL.Location = new System.Drawing.Point(77, 151);
+            this.textBoxFPGL.Location = new System.Drawing.Point(94, 138);
             this.textBoxFPGL.Name = "textBoxFPGL";
-            this.textBoxFPGL.Size = new System.Drawing.Size(144, 21);
+            this.textBoxFPGL.Size = new System.Drawing.Size(168, 21);
             this.textBoxFPGL.TabIndex = 27;
+            this.textBoxFPGL.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxFPGL_KeyPress);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(8, 155);
+            this.label4.Location = new System.Drawing.Point(25, 142);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(65, 12);
             this.label4.TabIndex = 26;
@@ -155,7 +161,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(8, 115);
+            this.label3.Location = new System.Drawing.Point(25, 102);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 12);
             this.label3.TabIndex = 24;
@@ -163,15 +169,15 @@
             // 
             // textBoxJDMC
             // 
-            this.textBoxJDMC.Location = new System.Drawing.Point(76, 72);
+            this.textBoxJDMC.Location = new System.Drawing.Point(93, 59);
             this.textBoxJDMC.Name = "textBoxJDMC";
-            this.textBoxJDMC.Size = new System.Drawing.Size(173, 21);
+            this.textBoxJDMC.Size = new System.Drawing.Size(198, 21);
             this.textBoxJDMC.TabIndex = 21;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(8, 76);
+            this.label2.Location = new System.Drawing.Point(25, 63);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(65, 12);
             this.label2.TabIndex = 20;
@@ -179,16 +185,16 @@
             // 
             // textBoxJDBM
             // 
-            this.textBoxJDBM.Location = new System.Drawing.Point(76, 32);
+            this.textBoxJDBM.Location = new System.Drawing.Point(93, 19);
             this.textBoxJDBM.Name = "textBoxJDBM";
             this.textBoxJDBM.ReadOnly = true;
-            this.textBoxJDBM.Size = new System.Drawing.Size(173, 21);
+            this.textBoxJDBM.Size = new System.Drawing.Size(198, 21);
             this.textBoxJDBM.TabIndex = 19;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 36);
+            this.label1.Location = new System.Drawing.Point(25, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 12);
             this.label1.TabIndex = 18;
@@ -254,6 +260,8 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataGridView1.CausesValidation = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.节点编号,
@@ -265,9 +273,67 @@
             this.分配概率});
             this.dataGridView1.Location = new System.Drawing.Point(7, 36);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dataGridView1.Size = new System.Drawing.Size(311, 321);
             this.dataGridView1.TabIndex = 2;
+            this.dataGridView1.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.dataGridView1_CellValidating);
+            // 
+            // 节点编号
+            // 
+            this.节点编号.Frozen = true;
+            this.节点编号.HeaderText = "节点编号";
+            this.节点编号.Name = "节点编号";
+            this.节点编号.ReadOnly = true;
+            this.节点编号.Visible = false;
+            this.节点编号.Width = 60;
+            // 
+            // 节点名称
+            // 
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.节点名称.DefaultCellStyle = dataGridViewCellStyle1;
+            this.节点名称.Frozen = true;
+            this.节点名称.HeaderText = "节点名称";
+            this.节点名称.Name = "节点名称";
+            this.节点名称.ReadOnly = true;
+            this.节点名称.Width = 78;
+            // 
+            // 复杂度
+            // 
+            this.复杂度.HeaderText = "复杂度";
+            this.复杂度.Name = "复杂度";
+            this.复杂度.Width = 66;
+            // 
+            // 不成熟度
+            // 
+            this.不成熟度.HeaderText = "不成熟度";
+            this.不成熟度.Name = "不成熟度";
+            this.不成熟度.Width = 78;
+            // 
+            // 重要度
+            // 
+            this.重要度.HeaderText = "重要度";
+            this.重要度.Name = "重要度";
+            this.重要度.Width = 66;
+            // 
+            // 综合权重
+            // 
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.综合权重.DefaultCellStyle = dataGridViewCellStyle2;
+            this.综合权重.HeaderText = "综合权重";
+            this.综合权重.Name = "综合权重";
+            this.综合权重.ReadOnly = true;
+            this.综合权重.Width = 78;
+            // 
+            // 分配概率
+            // 
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.分配概率.DefaultCellStyle = dataGridViewCellStyle3;
+            this.分配概率.HeaderText = "分配概率";
+            this.分配概率.Name = "分配概率";
+            this.分配概率.ReadOnly = true;
+            this.分配概率.Width = 78;
             // 
             // buttonCal
             // 
@@ -288,67 +354,21 @@
             this.button3.Text = "配置评分项";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // 节点编号
-            // 
-            this.节点编号.Frozen = true;
-            this.节点编号.HeaderText = "节点编号";
-            this.节点编号.Name = "节点编号";
-            this.节点编号.ReadOnly = true;
-            this.节点编号.Visible = false;
-            this.节点编号.Width = 60;
-            // 
-            // 节点名称
-            // 
-            this.节点名称.Frozen = true;
-            this.节点名称.HeaderText = "节点名称";
-            this.节点名称.Name = "节点名称";
-            this.节点名称.ReadOnly = true;
-            this.节点名称.Width = 60;
-            // 
-            // 复杂度
-            // 
-            this.复杂度.HeaderText = "复杂度";
-            this.复杂度.Name = "复杂度";
-            this.复杂度.Width = 60;
-            // 
-            // 不成熟度
-            // 
-            this.不成熟度.HeaderText = "不成熟度";
-            this.不成熟度.Name = "不成熟度";
-            this.不成熟度.Width = 60;
-            // 
-            // 重要度
-            // 
-            this.重要度.HeaderText = "重要度";
-            this.重要度.Name = "重要度";
-            this.重要度.Width = 60;
-            // 
-            // 综合权重
-            // 
-            this.综合权重.HeaderText = "综合权重";
-            this.综合权重.Name = "综合权重";
-            this.综合权重.ReadOnly = true;
-            this.综合权重.Width = 60;
-            // 
-            // 分配概率
-            // 
-            this.分配概率.HeaderText = "分配概率";
-            this.分配概率.Name = "分配概率";
-            this.分配概率.ReadOnly = true;
-            this.分配概率.Width = 60;
-            // 
             // SetDoorInfo
             // 
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(343, 442);
+            this.ClientSize = new System.Drawing.Size(344, 461);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.checkBoxFY);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(360, 500);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(360, 500);
             this.Name = "SetDoorInfo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "逻辑门属性";

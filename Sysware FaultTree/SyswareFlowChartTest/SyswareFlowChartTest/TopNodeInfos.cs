@@ -151,6 +151,23 @@ namespace SyswareFlowChartTest
             get;
             set;
         }
+        /// <summary>
+        /// 复杂度
+        /// </summary>
+        public string glFZD { get; set; }
+        /// <summary>
+        /// 不成熟度
+        /// </summary>
+        public string glBCSD { get; set; }
+        /// <summary>
+        /// 重要度
+        /// </summary>
+        public string glZYD { get; set; }
+        /// <summary>
+        /// 综合权重
+        /// </summary>
+        public string glZHQZ { get; set; }
+
         public NodeInfos(string code)
         {
             this.Code = code;
@@ -172,6 +189,10 @@ namespace SyswareFlowChartTest
             ni.Pjsxgl = this.Pjsxgl;
             ni.ItemType = this.ItemType;
             ni.ParentCode = this.ParentCode;
+            ni.glZHQZ = this.glZHQZ;
+            ni.glFZD = this.glFZD;
+            ni.glBCSD = this.glBCSD;
+            ni.glZYD = this.glZYD;
             if (this.ContainsNodes != null)
             {
                 foreach (NameCodeType nct in this.ContainsNodes)

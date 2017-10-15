@@ -257,44 +257,44 @@
             // 模型校验ToolStripMenuItem
             // 
             this.模型校验ToolStripMenuItem.Name = "模型校验ToolStripMenuItem";
-            this.模型校验ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.模型校验ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.模型校验ToolStripMenuItem.Text = "模型校验";
             // 
             // 模型设置ToolStripMenuItem
             // 
             this.模型设置ToolStripMenuItem.Name = "模型设置ToolStripMenuItem";
-            this.模型设置ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.模型设置ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.模型设置ToolStripMenuItem.Text = "模型设置";
             // 
             // 割集计算ToolStripMenuItem
             // 
             this.割集计算ToolStripMenuItem.Name = "割集计算ToolStripMenuItem";
-            this.割集计算ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.割集计算ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.割集计算ToolStripMenuItem.Text = "割集计算";
             // 
             // 重要度计算ToolStripMenuItem
             // 
             this.重要度计算ToolStripMenuItem.Name = "重要度计算ToolStripMenuItem";
-            this.重要度计算ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.重要度计算ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.重要度计算ToolStripMenuItem.Text = "重要度计算";
             // 
             // 底事件计算ToolStripMenuItem
             // 
             this.底事件计算ToolStripMenuItem.Name = "底事件计算ToolStripMenuItem";
-            this.底事件计算ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.底事件计算ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.底事件计算ToolStripMenuItem.Text = "顶事件计算";
             // 
             // 全部计算ToolStripMenuItem
             // 
             this.全部计算ToolStripMenuItem.Name = "全部计算ToolStripMenuItem";
-            this.全部计算ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.全部计算ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.全部计算ToolStripMenuItem.Text = "全部计算";
             this.全部计算ToolStripMenuItem.Click += new System.EventHandler(this.全部计算ToolStripMenuItem_Click);
             // 
             // 查看结果ToolStripMenuItem
             // 
             this.查看结果ToolStripMenuItem.Name = "查看结果ToolStripMenuItem";
-            this.查看结果ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.查看结果ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.查看结果ToolStripMenuItem.Text = "查看结果";
             this.查看结果ToolStripMenuItem.Click += new System.EventHandler(this.查看结果ToolStripMenuItem_Click);
             // 
@@ -359,13 +359,13 @@
             this.toolStripButton2,
             this.toolStripButton3,
             this.toolStripSeparator4,
-            this.toolStripButton13,
-            this.toolStripSeparator1,
             this.toolStripButton4,
             this.toolStripButton5,
             this.toolStripButton6,
             this.toolStripSeparator2,
+            this.toolStripButton13,
             this.toolStripButton14,
+            this.toolStripSeparator1,
             this.toolStripButton7,
             this.toolStripButton8,
             this.toolStripButton9,
@@ -466,8 +466,9 @@
             this.toolStripButton14.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton14.Image")));
             this.toolStripButton14.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton14.Name = "toolStripButton14";
-            this.toolStripButton14.Size = new System.Drawing.Size(52, 22);
-            this.toolStripButton14.Text = "计算";
+            this.toolStripButton14.Size = new System.Drawing.Size(76, 22);
+            this.toolStripButton14.Text = "查看结果";
+            this.toolStripButton14.ToolTipText = "计算并查看结果";
             this.toolStripButton14.Click += new System.EventHandler(this.查看结果ToolStripMenuItem_Click);
             // 
             // toolStripButton7

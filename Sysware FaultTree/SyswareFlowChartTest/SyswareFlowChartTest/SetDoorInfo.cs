@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using MindFusion.Diagramming;
+using SyswareFlowChartTest.Tools;
 
 namespace SyswareFlowChartTest
 {
@@ -47,14 +48,6 @@ namespace SyswareFlowChartTest
         /// </summary>
         private void LoadSubNode()
         {
-            //foreach (NameCodeType nct in m_nodeInfo.ContainsNodes)
-            //{
-            //    //SyswareNode sn = mDiagram .Items .Where (w => w.)
-            //    SyswareNode sn = GetNode(nct);
-            //    if (sn == null)
-            //        continue;
-            //    AddRow(sn);
-            //}
             foreach (var link in mDiagram.Links.Where(w => w.Origin == mDiagram.ActiveItem))
             {
                 SyswareNode next = (SyswareNode)link.Destination;
@@ -67,9 +60,11 @@ namespace SyswareFlowChartTest
             int index = this.dataGridView1.Rows.Add();
             dataGridView1.Rows[index].Cells[0].Value = ni.Code;
             dataGridView1.Rows[index].Cells[1].Value = ni.Name;
-            //dataGridView1.Rows[index].Cells[1].Value = ni.Gzl;
-            //dataGridView1.Rows[index].Cells[2].Value = ni.Fpgl;
-
+            dataGridView1.Rows[index].Cells[2].Value = ni.glFZD;
+            dataGridView1.Rows[index].Cells[3].Value = ni.glBCSD;
+            dataGridView1.Rows[index].Cells[4].Value = ni.glZYD;
+            dataGridView1.Rows[index].Cells[5].Value = ni.glZHQZ;
+            dataGridView1.Rows[index].Cells[6].Value = ni.Fpgl;
         }
         private SyswareNode GetNode(NameCodeType nct)
         {
@@ -85,6 +80,20 @@ namespace SyswareFlowChartTest
             }
             return ret;
         }
+        private SyswareNode GetNodeByCode(string code)
+        {
+            SyswareNode ret = null;
+            foreach (DiagramItem di in mDiagram.Items)
+            {
+                if (di.GetType().Name != "SyswareNode")
+                    continue;
+                SyswareNode sn = (SyswareNode)di;
+                NodeInfos ni = sn.Tag as NodeInfos;
+                if (ni.Code == code)
+                { ret = sn; break; }
+            }
+            return ret;
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -94,6 +103,28 @@ namespace SyswareFlowChartTest
             m_nodeInfo.Glms = this.richTextBoxGLMS.Text;
             m_nodeInfo.Jdms = this.richTextBoxJDMS.Text;
             m_nodeInfo.isPager = this.checkBoxFY.Checked;
+
+            SaveSubNodeInfo();
+        }
+        private void SaveSubNodeInfo()
+        {
+            for (int i = 0; i < dataGridView1.Rows.Count; i++)
+            {
+                string code = dataGridView1.Rows[i].Cells[0].Value == null ? "" : dataGridView1.Rows[i].Cells[0].Value.ToString();
+                SyswareNode sn = GetNodeByCode(code);
+                if (sn == null)
+                    continue;
+                SaveData(sn, i);
+            }
+        }
+        private void SaveData(SyswareNode sn, int row)
+        {
+            NodeInfos ni = sn.Tag as NodeInfos;
+            ni.glFZD = dataGridView1.Rows[row].Cells[2].Value == null ? "" : dataGridView1.Rows[row].Cells[2].Value.ToString();
+            ni.glBCSD = dataGridView1.Rows[row].Cells[3].Value == null ? "" : dataGridView1.Rows[row].Cells[3].Value.ToString();
+            ni.glZYD = dataGridView1.Rows[row].Cells[4].Value == null ? "" : dataGridView1.Rows[row].Cells[4].Value.ToString();
+            ni.glZHQZ = dataGridView1.Rows[row].Cells[5].Value == null ? "" : dataGridView1.Rows[row].Cells[5].Value.ToString();
+            ni.Fpgl = dataGridView1.Rows[row].Cells[6].Value == null ? "" : dataGridView1.Rows[row].Cells[6].Value.ToString();
         }
         private NodeType SetType()
         {
@@ -108,10 +139,115 @@ namespace SyswareFlowChartTest
             return NodeType.或门;
         }
 
-        // 分配计算。
+        /// <summary>
+        ///  分配计算。
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonCal_Click(object sender, EventArgs e)
         {
+            this.dataGridView1.EndEdit();
+            MsgForm mf;
+            if (string.IsNullOrEmpty(this.textBoxFPGL.Text))
+            {
+                mf = new MsgForm("请填写完常规选项中的分配概率！");
+                mf.ShowDialog();
+                return;
+            }
+            DataTable dt = DataGridViewHelper.GetDgvToTable(this.dataGridView1);
+            DataView dv = new DataView(dt);
+            //string filter = "复杂度 is null or 不成熟度 is null or 重要度 is null or 复杂度 = '' or 不成熟度  = '' or 重要度 = ''";
+            string notinStr = " not in ('1','2','3','4','5') ";
+            string filter = "复杂度" + notinStr + "or 不成熟度" + notinStr + "or 重要度" + notinStr;
+            dv.RowFilter = filter;
+            if (dv.ToTable().Rows.Count != 0)
+            {
+                mf = new MsgForm("复杂度或不成熟度或重要度输入格式不正确，请输入1-5的数字！");
+                mf.ShowDialog();
+                return;
+            }
+            List<List<double>> lld = GetGridViewData();
+            double fpgl = double.Parse(this.TextBoxFPGL.Text.Trim());
+            try
+            {
+                SetType();
+                CalGL cgl = new CalGL(fpgl, lld, m_nodeInfo.Type);
+                ShowData(cgl);
+            }
+            catch (Exception exp)
+            {
+                MsgForm emf = new MsgForm(exp.Message, false, "计算出错。");
+                emf.ShowDialog();
+            }
 
+        }
+        private List<List<double>> GetGridViewData()
+        {
+            List<List<double>> ret = new List<List<double>>();
+            int count = dataGridView1.Rows.Count;
+            for (int i = 0; i < count; i++)
+            {
+                List<double> row = new List<double>();
+                for (int j = 2; j < 5; j++)
+                {
+                    row.Add(double.Parse(dataGridView1.Rows[i].Cells[j].Value.ToString()));
+                }
+                ret.Add(row);
+            }
+            return ret;
+        }
+
+        private void ShowData(CalGL cgl)
+        {
+            int count = dataGridView1.Rows.Count;
+            if (count != cgl.m_sub_fpgl.Count())
+                return;
+            for (int i = 0; i < count; i++)
+            {
+                dataGridView1.Rows[i].Cells[5].Value = cgl.m_QZ[i].ToString("f3");
+                dataGridView1.Rows[i].Cells[6].Value = cgl.m_sub_fpgl[i].ToString("f3");
+            }
+        }
+
+        private void textBoxFPGL_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Back)
+            {
+                return;
+            }
+            double outDb = 0;
+            if (double.TryParse(textBoxFPGL.Text + e.KeyChar.ToString(), out outDb))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void dataGridView1_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
+        {
+            if (e.ColumnIndex != 2 && e.ColumnIndex != 3 && e.ColumnIndex != 4)
+            {
+                return;
+            }
+            string[] inPutStr = {"1","2","3","4","5"};
+            if (inPutStr.Contains(e.FormattedValue.ToString()))
+            {
+                e.Cancel = false;
+            }
+            else
+            {
+                dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].Value = "";
+                e.Cancel = true;//数据格式不正确则还原
+                dataGridView1.CancelEdit();
+                
+            }
+        }
+
+        private void comboBoxMLX_SelectedIndexChanged(object sender, EventArgs e)
+        {
         }
     }
 }
