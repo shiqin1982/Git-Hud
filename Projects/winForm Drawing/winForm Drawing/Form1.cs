@@ -62,6 +62,8 @@ namespace winForm_Drawing
                 double result = (A * Math.Sin(normalizedTime * W));
                 return result;
             }
-        }       
+        }
+        double y = A * Math.Pow(e, a * i) * Math.Sin(ω * t);
+        double z = Math.Sin(double q);
     }
 }
