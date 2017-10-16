@@ -17,31 +17,16 @@ namespace SyswareFlowChartTest
         public SetBotNode(NodeInfos nodeInfo)
         {
             InitializeComponent();
-            this.textBoxFPGL.LostFocus += textBoxFPGL_LostFocus;
-            this.textBoxJSZQ.LostFocus += textBoxJSZQ_LostFocus;
-            this.textBoxGZL.LostFocus += textBoxGZL_LostFocus;
-            this.textBoxBLSJ.LostFocus += textBoxBLSJ_LostFocus;
+            this.textBoxFPGL.LostFocus += textBox_LostFocus;
+            this.textBoxJSZQ.LostFocus += textBox_LostFocus;
+            this.textBoxGZL.LostFocus += textBox_LostFocus;
+            this.textBoxBLSJ.LostFocus += textBox_LostFocus;
             m_nodeInfo = nodeInfo;
         }
 
-        void textBoxBLSJ_LostFocus(object sender, EventArgs e)
+        void textBox_LostFocus(object sender, EventArgs e)
         {
-            VerificationHelper.textBoxVer(textBoxBLSJ);
-        }
-
-        void textBoxGZL_LostFocus(object sender, EventArgs e)
-        {
-            VerificationHelper.textBoxVer(textBoxGZL);
-        }
-
-        void textBoxJSZQ_LostFocus(object sender, EventArgs e)
-        {
-            VerificationHelper.textBoxVer(textBoxJSZQ);
-        }
-
-        void textBoxFPGL_LostFocus(object sender, EventArgs e)
-        {
-            VerificationHelper.textBoxVer(textBoxFPGL);
+            VerificationHelper.textBoxVer((TextBox)sender, button1);
         }
         private void SetBotNode_Load(object sender, EventArgs e)
         {

@@ -49,13 +49,14 @@
             this.richTextBoxJDMS = new System.Windows.Forms.RichTextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.节点编号 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.节点名称 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.复杂度 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -63,8 +64,6 @@
             this.重要度 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.综合权重 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.分配概率 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -141,7 +140,7 @@
             this.textBoxPJSXGL.Location = new System.Drawing.Point(96, 269);
             this.textBoxPJSXGL.Name = "textBoxPJSXGL";
             this.textBoxPJSXGL.ReadOnly = true;
-            this.textBoxPJSXGL.Size = new System.Drawing.Size(173, 21);
+            this.textBoxPJSXGL.Size = new System.Drawing.Size(203, 21);
             this.textBoxPJSXGL.TabIndex = 9;
             // 
             // label5
@@ -214,15 +213,6 @@
             this.label9.TabIndex = 14;
             this.label9.Text = "E-6";
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(276, 272);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(23, 12);
-            this.label10.TabIndex = 15;
-            this.label10.Text = "E-6";
-            // 
             // button1
             // 
             this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
@@ -270,7 +260,6 @@
             this.tabPage1.Controls.Add(this.richTextBoxGLMS);
             this.tabPage1.Controls.Add(this.textBoxFXXS);
             this.tabPage1.Controls.Add(this.label6);
-            this.tabPage1.Controls.Add(this.label10);
             this.tabPage1.Controls.Add(this.comboBoxMLX);
             this.tabPage1.Controls.Add(this.textBoxFPGL);
             this.tabPage1.Controls.Add(this.label9);
@@ -319,6 +308,25 @@
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.dataGridView1_CellValidating);
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(212, 6);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(107, 23);
+            this.button4.TabIndex = 1;
+            this.button4.Text = "分配计算";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.buttonCal_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(8, 6);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(107, 23);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "配置评分项";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // 节点编号
             // 
             this.节点编号.Frozen = true;
@@ -358,7 +366,7 @@
             // 
             // 综合权重
             // 
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
             this.综合权重.DefaultCellStyle = dataGridViewCellStyle2;
             this.综合权重.HeaderText = "综合权重";
             this.综合权重.Name = "综合权重";
@@ -372,31 +380,12 @@
             this.分配概率.Name = "分配概率";
             this.分配概率.Width = 78;
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(212, 6);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(107, 23);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "分配计算";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.buttonCal_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(8, 6);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 23);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "配置评分项";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // SetTopNode
             // 
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(344, 462);
+            this.ClientSize = new System.Drawing.Size(344, 461);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
@@ -436,7 +425,6 @@
         private System.Windows.Forms.RichTextBox richTextBoxJDMS;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         public System.Windows.Forms.TextBox textBoxJDMC;

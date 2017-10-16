@@ -101,15 +101,21 @@ namespace SyswareFlowChartTest
             {
                 if (ni.Fpgl.Trim() != "")
                 {
-                    double d = double.Parse(ni.Fpgl.Trim()) * 1.0e-6;
-                    ret = "P=" + d.ToString("#.##E+0");
+                    double d;
+                    if (double.TryParse(ni.Fpgl.Trim(), out d))
+                    {
+                        d = d * 1.0e-6;
+                        ret = "P=" + d.ToString("#.##E+0");
+                    }
+                    else
+                        ret = "P=err";
                 }
             }
             return ret;
         }
         private string GetEventString(NodeInfos ni)
         {
-            string ret = "r=0";
+            string ret = "r=0"; double d;
             if (ni.AffaType == AffairType.房型事件)
             {
                 if (ni.Mxlj.ToLower() == "true")
@@ -125,11 +131,13 @@ namespace SyswareFlowChartTest
                 {
                     if (ni.Gzl.Trim() == "")
                         ret = "r=0";
-                    else
+                    else if (double.TryParse(ni.Gzl.Trim(), out d))
                     {
-                        double d = double.Parse(ni.Gzl.Trim()) * 1.0e-6;
+                        d = d * 1.0e-6;
                         ret = "r=" + d.ToString("#.##E+0");
                     }
+                    else
+                        ret = "r=err";
                 }
             }
 
@@ -143,8 +151,13 @@ namespace SyswareFlowChartTest
             {
                 if (ni.Pjsxgl.Trim() != "")
                 {
-                    double d = double.Parse(ni.Pjsxgl.Trim());
-                    ret = "Pf=" + d.ToString("#.##E+0");
+                    double d;
+                    if (double.TryParse(ni.Pjsxgl.Trim(), out d))
+                    {
+                        ret = "Pf=" + d.ToString("#.##E+0");
+                    }
+                    else
+                        ret = "Pf=err";
                 }
             }
             return ret;

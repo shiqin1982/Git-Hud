@@ -19,20 +19,15 @@ namespace SyswareFlowChartTest
         public SetTopNode(NodeInfos nodeInfo, Diagram diagram)
         {
             InitializeComponent();
-            this.textBoxFPGL.LostFocus += textBoxFPGL_LostFocus;
-            this.textBoxFXXS.LostFocus += textBoxFXXS_LostFocus;
+            this.textBoxFPGL.LostFocus += textBox_LostFocus;
+            this.textBoxFXXS.LostFocus += textBox_LostFocus;
             m_nodeInfo = nodeInfo;
             mDiagram = diagram;
         }
 
-        void textBoxFXXS_LostFocus(object sender, EventArgs e)
+        void textBox_LostFocus(object sender, EventArgs e)
         {
-            VerificationHelper.textBoxVer(textBoxFXXS);
-        }
-
-        void textBoxFPGL_LostFocus(object sender, EventArgs e)
-        {
-            VerificationHelper.textBoxVer(textBoxFPGL);
+            VerificationHelper.textBoxVer((TextBox)sender,button1);
         }
         private void SetTopNode_Load(object sender, EventArgs e)
         {
@@ -188,6 +183,7 @@ namespace SyswareFlowChartTest
         }
         private void SaveSubNodeInfo()
         {
+            dataGridView1.EndEdit();
             for (int i = 0; i < dataGridView1.Rows.Count; i++)
             {
                 string code = dataGridView1.Rows[i].Cells[0].Value == null ? "" : dataGridView1.Rows[i].Cells[0].Value.ToString();
@@ -223,19 +219,19 @@ namespace SyswareFlowChartTest
 
         private void textBoxFPGL_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == (char)Keys.Back)
-            {
-                return;
-            }
-            double outDb = 0;
-            if (double.TryParse(textBoxFPGL.Text + e.KeyChar.ToString(), out outDb))
-            {
-                e.Handled = false;
-            }
-            else
-            {
-                e.Handled = true;
-            }
+            //if (e.KeyChar == (char)Keys.Back)
+            //{
+            //    return;
+            //}
+            //double outDb = 0;
+            //if (double.TryParse(textBoxFPGL.Text + e.KeyChar.ToString(), out outDb))
+            //{
+            //    e.Handled = false;
+            //}
+            //else
+            //{
+            //    e.Handled = true;
+            //}
         }
 
          private void dataGridView1_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)

@@ -52,6 +52,8 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.buttonCal = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.节点编号 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.节点名称 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.复杂度 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -59,8 +61,6 @@
             this.重要度 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.综合权重 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.分配概率 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.buttonCal = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -279,6 +279,25 @@
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.dataGridView1_CellValidating);
             // 
+            // buttonCal
+            // 
+            this.buttonCal.Location = new System.Drawing.Point(211, 7);
+            this.buttonCal.Name = "buttonCal";
+            this.buttonCal.Size = new System.Drawing.Size(107, 23);
+            this.buttonCal.TabIndex = 1;
+            this.buttonCal.Text = "分配计算";
+            this.buttonCal.UseVisualStyleBackColor = true;
+            this.buttonCal.Click += new System.EventHandler(this.buttonCal_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(6, 6);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(107, 23);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "配置评分项";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // 节点编号
             // 
             this.节点编号.Frozen = true;
@@ -318,7 +337,7 @@
             // 
             // 综合权重
             // 
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
             this.综合权重.DefaultCellStyle = dataGridViewCellStyle2;
             this.综合权重.HeaderText = "综合权重";
             this.综合权重.Name = "综合权重";
@@ -332,31 +351,12 @@
             this.分配概率.Name = "分配概率";
             this.分配概率.Width = 78;
             // 
-            // buttonCal
-            // 
-            this.buttonCal.Location = new System.Drawing.Point(211, 7);
-            this.buttonCal.Name = "buttonCal";
-            this.buttonCal.Size = new System.Drawing.Size(107, 23);
-            this.buttonCal.TabIndex = 1;
-            this.buttonCal.Text = "分配计算";
-            this.buttonCal.UseVisualStyleBackColor = true;
-            this.buttonCal.Click += new System.EventHandler(this.buttonCal_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(6, 6);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 23);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "配置评分项";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // SetDoorInfo
             // 
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(344, 462);
+            this.ClientSize = new System.Drawing.Size(344, 461);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.checkBoxFY);
             this.Controls.Add(this.button2);

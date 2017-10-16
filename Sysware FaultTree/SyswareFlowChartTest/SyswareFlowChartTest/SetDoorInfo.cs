@@ -20,14 +20,14 @@ namespace SyswareFlowChartTest
         public SetDoorInfo(NodeInfos nodeInfo, Diagram diagram)
         {
             InitializeComponent();
-            this.textBoxFPGL.LostFocus += textBoxFPGL_LostFocus;
+            this.textBoxFPGL.LostFocus += textBox_LostFocus;
             m_nodeInfo = nodeInfo;
             mDiagram = diagram;
         }
 
-        void textBoxFPGL_LostFocus(object sender, EventArgs e)
+        void textBox_LostFocus(object sender, EventArgs e)
         {
-            VerificationHelper.textBoxVer(textBoxFPGL);
+            VerificationHelper.textBoxVer((TextBox)sender, button1);
         }
 
 
@@ -124,6 +124,7 @@ namespace SyswareFlowChartTest
         }
         private void SaveSubNodeInfo()
         {
+            dataGridView1.EndEdit();
             for (int i = 0; i < dataGridView1.Rows.Count; i++)
             {
                 string code = dataGridView1.Rows[i].Cells[0].Value == null ? "" : dataGridView1.Rows[i].Cells[0].Value.ToString();
