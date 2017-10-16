@@ -192,3 +192,5 @@ C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\D
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.MsgForm.resources
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.ExitConfirmForm.resources
 C:\Project\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.AboutForm.resources
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.exe
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Sysware FaultTree\SyswareFlowChartTest\SyswareFlowChartTest\obj\x86\Debug\SyswareFlowChartTest.pdb

@@ -1,0 +1,4 @@
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\快速傅里叶变换\快速傅里叶变换\bin\Debug\快速傅里叶变换.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\快速傅里叶变换\快速傅里叶变换\obj\Debug\快速傅里叶变换.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\快速傅里叶变换\快速傅里叶变换\obj\Debug\快速傅里叶变换.Properties.Resources.resources
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\快速傅里叶变换\快速傅里叶变换\obj\Debug\快速傅里叶变换.csproj.GenerateResource.Cache

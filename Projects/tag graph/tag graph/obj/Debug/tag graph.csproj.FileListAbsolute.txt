@@ -6,3 +6,4 @@ C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\tag graph\tag graph\obj\D
 C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\tag graph\tag graph\obj\Debug\tag graph.csproj.GenerateResource.Cache
 C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\tag graph\tag graph\obj\Debug\tag graph.exe
 C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\tag graph\tag graph\obj\Debug\tag graph.pdb
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\tag graph\tag graph\obj\Debug\tag_graph.Form1.resources
