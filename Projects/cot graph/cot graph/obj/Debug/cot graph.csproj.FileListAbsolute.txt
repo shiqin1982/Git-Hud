@@ -5,3 +5,4 @@ C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\cot graph\cot graph\bin\D
 C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\cot graph\cot graph\bin\Debug\cot graph.pdb
 C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\cot graph\cot graph\obj\Debug\cot graph.exe
 C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\cot graph\cot graph\obj\Debug\cot graph.pdb
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\cot graph\cot graph\obj\Debug\cot graph.csprojResolveAssemblyReference.cache
