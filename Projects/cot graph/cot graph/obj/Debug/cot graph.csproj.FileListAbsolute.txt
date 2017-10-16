@@ -1,0 +1,7 @@
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\cot graph\cot graph\bin\Debug\cot graph.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\cot graph\cot graph\obj\Debug\cot_graph.Properties.Resources.resources
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\cot graph\cot graph\obj\Debug\cot graph.csproj.GenerateResource.Cache
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\cot graph\cot graph\bin\Debug\cot graph.exe
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\cot graph\cot graph\bin\Debug\cot graph.pdb
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\cot graph\cot graph\obj\Debug\cot graph.exe
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\cot graph\cot graph\obj\Debug\cot graph.pdb

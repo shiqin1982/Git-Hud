@@ -1,0 +1,8 @@
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\tag graph\tag graph\bin\Debug\tag graph.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\tag graph\tag graph\bin\Debug\tag graph.exe
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\tag graph\tag graph\bin\Debug\tag graph.pdb
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\tag graph\tag graph\obj\Debug\tag graph.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\tag graph\tag graph\obj\Debug\tag_graph.Properties.Resources.resources
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\tag graph\tag graph\obj\Debug\tag graph.csproj.GenerateResource.Cache
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\tag graph\tag graph\obj\Debug\tag graph.exe
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\tag graph\tag graph\obj\Debug\tag graph.pdb
