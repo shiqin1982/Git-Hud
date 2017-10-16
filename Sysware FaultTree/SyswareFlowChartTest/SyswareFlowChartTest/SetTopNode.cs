@@ -109,7 +109,7 @@ namespace SyswareFlowChartTest
             }
             DataTable dt = DataGridViewHelper.GetDgvToTable(this.dataGridView1);
             DataView dv = new DataView(dt);
-            //string filter = "复杂度 is null or 不成熟度 is null or 重要度 is null or 复杂度 = '' or 不成熟度  = '' or 重要度 = ''";
+           
             string notinStr = " not in ('1','2','3','4','5') ";
             string filter = "复杂度" + notinStr + "or 不成熟度" + notinStr + "or 重要度" + notinStr;
             dv.RowFilter = filter;

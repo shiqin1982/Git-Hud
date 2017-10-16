@@ -20,6 +20,8 @@ namespace SyswareFlowChartTest
         /// </summary>
         private string[] _sArray = null;
 
+        List<ProResult> _prList = null;
+
         private string _resultCutSet = "";
         public View_Results()
         {
@@ -29,7 +31,8 @@ namespace SyswareFlowChartTest
         public void setData(string resultCutSet, double topProbability, string bottomImportance, List<ProResult> prList)
         {
             _resultCutSet = resultCutSet;
-            textBox1.Text = "平均每飞行小时失效概率为：\r\n" + topProbability.ToString();
+            _prList = prList;
+            textBox1.Text = "平均每飞行小时失效概率为：\r\n" + topProbability.ToString("#.##E+000");
             DataSet ds1 = Data2Conversion.ConvertXml2DataSet(resultCutSet);
             DataSet ds3 = Data2Conversion.ConvertXml2DataSet(bottomImportance);
 
@@ -37,6 +40,7 @@ namespace SyswareFlowChartTest
 
             getAllCutSetArray(resultCutSet);
             DataTable dt2 = Data2Conversion.Array2DataTable("cutSet", _sArray);
+            getNameTable(dt2);
             dt3 = UpdateDataTable(dt3);
             getOrderNum(resultCutSet);
             getCutSetAndNum();
@@ -69,6 +73,7 @@ namespace SyswareFlowChartTest
 
                 }
                 DataTable dt2 = Data2Conversion.Array2DataTable("cutSet", _sArray);
+                getNameTable(dt2);
                 dataGridView2.DataSource = dt2;
             }
             else
@@ -83,6 +88,7 @@ namespace SyswareFlowChartTest
                     }
                 }
                 DataTable dt2 = createTable(b);
+                getNameTable(dt2);
                 dataGridView2.DataSource = dt2;
             }
         }
@@ -130,15 +136,23 @@ namespace SyswareFlowChartTest
                     //修改列类型
                     col.DataType = typeof(double);
                 }
+                
             }
             foreach (DataRow row in argDataTable.Rows)
             {
+                foreach (ProResult p in _prList)
+                {
+                    if (row["i"].ToString() == p.Code)
+                    {
+                        row["i"] = p.Name;
+                    }
+                }
                 DataRow rowNew = dtResult.NewRow();
                 rowNew["i"] = row["i"];
                 rowNew["PrbI"] = row["PrbI"];
                 rowNew["FVI"] = row["FVI"];
                 rowNew["StrtI"] = row["StrtI"];
-
+                
                 dtResult.Rows.Add(rowNew);
             }
             return dtResult;
@@ -236,6 +250,31 @@ namespace SyswareFlowChartTest
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+        /// <summary>
+        /// 根据code获取name
+        /// </summary>
+        /// <returns></returns>
+        private void getNameTable(DataTable dt)
+        {
+            foreach (DataRow r in dt.Rows)
+            {
+                string[] a = r["cutSet"].ToString().Split(',');
+
+                for (int i = 0; i < a.Length; i++)
+                {
+                    foreach (ProResult p in _prList)
+                    {
+                        if (a[i] == p.Code)
+                        {
+                            a[i] = p.Name;
+                        }
+                    }
+                }
+                string str = string.Join(",", a);//数组转成字符串
+
+                r["cutSet"] = str;
+            }
         }
     }
 }

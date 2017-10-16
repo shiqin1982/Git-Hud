@@ -67,13 +67,13 @@
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton13 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton13 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton14 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
@@ -208,35 +208,35 @@
             // ToolStripMenuItemDelete
             // 
             this.ToolStripMenuItemDelete.Name = "ToolStripMenuItemDelete";
-            this.ToolStripMenuItemDelete.Size = new System.Drawing.Size(124, 22);
+            this.ToolStripMenuItemDelete.Size = new System.Drawing.Size(152, 22);
             this.ToolStripMenuItemDelete.Text = "删除";
             this.ToolStripMenuItemDelete.Click += new System.EventHandler(this.ToolStripMenuItemDelete_Click);
             // 
             // ToolStripMenuItemShear
             // 
             this.ToolStripMenuItemShear.Name = "ToolStripMenuItemShear";
-            this.ToolStripMenuItemShear.Size = new System.Drawing.Size(124, 22);
+            this.ToolStripMenuItemShear.Size = new System.Drawing.Size(152, 22);
             this.ToolStripMenuItemShear.Text = "剪切";
             this.ToolStripMenuItemShear.Click += new System.EventHandler(this.ToolStripMenuItemJQ2_Click);
             // 
             // ToolStripMenuItemFZ
             // 
             this.ToolStripMenuItemFZ.Name = "ToolStripMenuItemFZ";
-            this.ToolStripMenuItemFZ.Size = new System.Drawing.Size(124, 22);
+            this.ToolStripMenuItemFZ.Size = new System.Drawing.Size(152, 22);
             this.ToolStripMenuItemFZ.Text = "复制";
             this.ToolStripMenuItemFZ.Click += new System.EventHandler(this.ToolStripMenuItemFZ_Click);
             // 
             // ToolStripMenuItemNT
             // 
             this.ToolStripMenuItemNT.Name = "ToolStripMenuItemNT";
-            this.ToolStripMenuItemNT.Size = new System.Drawing.Size(124, 22);
+            this.ToolStripMenuItemNT.Size = new System.Drawing.Size(152, 22);
             this.ToolStripMenuItemNT.Text = "粘帖";
             this.ToolStripMenuItemNT.Click += new System.EventHandler(this.ToolStripMenuItemNT_Click);
             // 
             // ToolStripMenuItemTSNT
             // 
             this.ToolStripMenuItemTSNT.Name = "ToolStripMenuItemTSNT";
-            this.ToolStripMenuItemTSNT.Size = new System.Drawing.Size(124, 22);
+            this.ToolStripMenuItemTSNT.Size = new System.Drawing.Size(152, 22);
             this.ToolStripMenuItemTSNT.Text = "特殊粘帖";
             this.ToolStripMenuItemTSNT.Click += new System.EventHandler(this.ToolStripMenuItemTSNT_Click);
             // 
@@ -412,22 +412,6 @@
             this.toolStripSeparator4.Name = "toolStripSeparator4";
             this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
             // 
-            // toolStripButton13
-            // 
-            this.toolStripButton13.Image = global::SyswareFlowChartTest.Properties.Resources.export;
-            this.toolStripButton13.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton13.Name = "toolStripButton13";
-            this.toolStripButton13.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripButton13.Size = new System.Drawing.Size(52, 22);
-            this.toolStripButton13.Text = "导出";
-            this.toolStripButton13.ToolTipText = "打印";
-            this.toolStripButton13.Click += new System.EventHandler(this.xmlToolStripMenuItemSaveXML_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
             // toolStripButton4
             // 
             this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
@@ -461,6 +445,17 @@
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
+            // toolStripButton13
+            // 
+            this.toolStripButton13.Image = global::SyswareFlowChartTest.Properties.Resources.export;
+            this.toolStripButton13.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton13.Name = "toolStripButton13";
+            this.toolStripButton13.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.toolStripButton13.Size = new System.Drawing.Size(52, 22);
+            this.toolStripButton13.Text = "导出";
+            this.toolStripButton13.ToolTipText = "打印";
+            this.toolStripButton13.Click += new System.EventHandler(this.xmlToolStripMenuItemSaveXML_Click);
+            // 
             // toolStripButton14
             // 
             this.toolStripButton14.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton14.Image")));
@@ -470,6 +465,11 @@
             this.toolStripButton14.Text = "查看结果";
             this.toolStripButton14.ToolTipText = "计算并查看结果";
             this.toolStripButton14.Click += new System.EventHandler(this.查看结果ToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // toolStripButton7
             // 
@@ -533,6 +533,7 @@
             // diagramView1
             // 
             this.diagramView1.BackColor = System.Drawing.SystemColors.Control;
+            this.diagramView1.DelKeyAction = MindFusion.Diagramming.DelKeyAction.None;
             this.diagramView1.Diagram = this.diagram1;
             this.diagramView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.diagramView1.LicenseKey = null;

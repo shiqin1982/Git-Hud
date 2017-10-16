@@ -35,13 +35,13 @@ namespace SyswareFlowChartTest
             RectangleF b = this.GetBounds();
             RectangleF rectf = new RectangleF();
             rectf.X = b.X;
-            rectf.Y = b.Y + 1;
+            rectf.Y = b.Y +0.5f;
             rectf.Width = b.Width;
             rectf.Height = 9;
             StringFormat format1 = new StringFormat();
             format1.Alignment = StringAlignment.Center;
             NodeInfos ni = this.Tag as NodeInfos;
-            graphics.DrawString(ni.Jdms, new Font("宋体", 11), mb, rectf, format1);
+            graphics.DrawString(ni.Jdms, new Font("宋体", 8), mb, rectf, format1);
             //graphics.DrawString(this.Text, new Font("宋体", 11), mysbrush1, rectf, format1);
             if (ni.ItemType == "底")
             {
