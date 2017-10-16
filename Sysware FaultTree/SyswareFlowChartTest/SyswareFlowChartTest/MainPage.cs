@@ -165,8 +165,8 @@ namespace SyswareFlowChartTest
     new ElementTemplate[] 
 	{
 		new LineTemplate(50, 45, 50, 40, Color.FromName("Black"), DashStyle.Custom, -1),
-		new LineTemplate(40,100,40,105),
-		new LineTemplate (60,100,60,105)
+        //new LineTemplate(40,100,40,105),
+        //new LineTemplate (60,100,60,105)
 	},
     null,
     FillMode.Winding, "test",
@@ -222,9 +222,9 @@ namespace SyswareFlowChartTest
 		
 	},
     new ElementTemplate[] {
-		new LineTemplate(50, 45, 50, 40),
-		new LineTemplate(40, 90, 40, 100),
-		new LineTemplate(60, 90, 60, 100)
+        new LineTemplate(50, 45, 50, 40),
+        //new LineTemplate(40, 90, 40, 100),
+        //new LineTemplate(60, 90, 60, 100)
 	},
     null,
     FillMode.Winding, "test",
@@ -246,9 +246,9 @@ namespace SyswareFlowChartTest
 			{
 		new LineTemplate(25,75,25,60),                     
 				new BezierTemplate(25, 60, 25, 40, 75f, 40, 75, 60),
-				new LineTemplate(75, 60, 75, 100),
-				new LineTemplate(75, 100, 75, 100),
-				new BezierTemplate(75, 100, 60, 85, 45f, 85, 25, 100)
+				new LineTemplate(75, 60, 75, 95),
+				new LineTemplate(75, 95, 75, 95),
+				new BezierTemplate(75, 95, 60, 85, 45f, 85, 25, 95)
 			},
 			new MindFusion.Drawing.SolidBrush(Color.FromArgb(255,128,128,255)),
 			FillMode.Winding,
@@ -283,8 +283,8 @@ namespace SyswareFlowChartTest
     new ElementTemplate[] {
 		new LineTemplate(50, 45, 50, 40),
 		new LineTemplate(25,95,75,95),
-		new LineTemplate(40, 100, 40, 105),
-		new LineTemplate(60, 100, 60, 105)
+        //new LineTemplate(40, 100, 40, 105),
+        //new LineTemplate(60, 100, 60, 105)
 	},
     null,
     FillMode.Winding, "test",
@@ -343,8 +343,8 @@ namespace SyswareFlowChartTest
 	},
     new ElementTemplate[] {
 		new LineTemplate(50, 45, 50, 40),
-		new LineTemplate(40, 95, 40, 100),
-		new LineTemplate(60, 95, 60, 100),
+        //new LineTemplate(40, 95, 40, 100),
+        //new LineTemplate(60, 95, 60, 100),
 		
 	},
     null,
@@ -468,7 +468,8 @@ namespace SyswareFlowChartTest
             nodeInfo.ItemType = "底";
             nodeInfo.AffaType = AffairType.基本事件;
             nodeInfo.ContainsNodes = new NameCodeType.Collection();
-
+            //新建时暴露时间默认为顶节点的飞行时间
+            nodeInfo.exposureTime = (this.diagram1.Nodes[0].Tag as NodeInfos).Fxxs;
             node.Tag = nodeInfo;
             node.Font = new Font("宋体", 9);
             //node.Text = "EVENT" + m_botSequ.ToString();
@@ -1232,6 +1233,8 @@ namespace SyswareFlowChartTest
                 if (dlg.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
                     this.diagram1.ClearAll();
+                    m_bSaveAs = false;
+
                     string ext = System.IO.Path.GetExtension(dlg.FileName).ToLower();
                     if (ext == ".psa")
                     {
@@ -1283,6 +1286,7 @@ namespace SyswareFlowChartTest
                     File.Delete(name);
                 // this.diagramView1.SaveToFile(name + ".txt", true);
                 this.diagramView1.SaveToXml(name);
+                m_bSaveAs = true;
             }
         }
         //另存为
@@ -1301,6 +1305,22 @@ namespace SyswareFlowChartTest
                     this.diagramView1.SaveToXml(dlg.FileName);
                     m_bSaveAs = true;
                 }
+                else
+                    m_bSaveAs = false;
+            }
+        }
+        // 计算
+        private void toolStripButton15_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string msg = getTopProbability().ToString("#.###E+00");
+                (this.diagram1.Nodes[0].Tag as NodeInfos).Pjsxgl = msg;
+            }
+            catch (Exception exp)
+            {
+                MsgForm mf = new MsgForm("计算出错：" + exp.Message, false, "错误");
+                mf.ShowDialog();
             }
         }
         //门节点
@@ -1632,8 +1652,8 @@ namespace SyswareFlowChartTest
         }
         #endregion
 
-        #region 保存
-        //保存xml文件,用于进行计算。
+        #region   生成xml文件,用于进行计算。
+        //生成xml文件,用于进行计算。
         private void xmlToolStripMenuItemSaveXML_Click(object sender, EventArgs e)
         {
             getXmlData();
@@ -1676,11 +1696,14 @@ namespace SyswareFlowChartTest
                             string str = "Gate";
                             foreach (NameCodeType nct in nodeInfo.ContainsNodes)
                             {
-                                if (nct.Type == "底") str = "Evt";
-                                else str = "Gate";
+                                if (nct.Type == "底")
+                                    str = "Evt";
+                                else
+                                    str = "Gate";
                                 XmlElement field1 = m_XmlDoc.CreateElement("", str, "");
                                 field1.SetAttribute("ID", nct.Code);
                                 field.AppendChild(field1);
+
                             }
                         }
                         links.AppendChild(field);
@@ -1699,17 +1722,22 @@ namespace SyswareFlowChartTest
                         {
                             string value = "";
                             if (nodeInfo.Mxlj == "True")
-                                value = "true";
+                                value = "True";
                             else if (nodeInfo.Mxlj == "False")
-                                value = "false";
+                                value = "False";
                             gate.SetAttribute("Lmd", value);
                         }
                         else if (nodeInfo.AffaType == AffairType.隐蔽事件)
                         {
                             gate.SetAttribute("Lmd", nodeInfo.Gzl + "E-6");
+                            gate.SetAttribute("RskTi", nodeInfo.exposureTime);
                             gate.SetAttribute("Ti", nodeInfo.Jszq);
                         }
-                        else gate.SetAttribute("Lmd", nodeInfo.Gzl + "E-6");
+                        else
+                        {
+                            gate.SetAttribute("RskTi", nodeInfo.exposureTime);
+                            gate.SetAttribute("Lmd", nodeInfo.Gzl + "E-6");
+                        }
 
                         nodes.AppendChild(gate);
                     }
@@ -1774,27 +1802,38 @@ namespace SyswareFlowChartTest
         private void 全部计算ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MsgForm mf;
-            if (this.diagram1.Nodes.Count() == 0)
+            try
             {
-                mf = new MsgForm("没有节点需要计算");
-            }
-            else
-            {
-                NodeInfos topInfo = this.diagram1.Nodes[0].Tag as NodeInfos;
-                double outdb = 0;
-                if (!double.TryParse(topInfo.Fxxs, out outdb))
+                if (this.diagram1.Nodes.Count() == 0)
                 {
-                    mf = new MsgForm("您在顶节点输入的飞行时长不正确！");
+                    mf = new MsgForm("没有节点需要计算");
                 }
                 else
                 {
-                    double topProbability = getTopProbability();
-                    string msg = "平均每飞行小时失效概率为：  " + topProbability.ToString("#.##E+000") +"\r\n";
-                    msg += "本次飞行失效概率为：  " + (topProbability * double.Parse(topInfo.Fxxs)).ToString("#.##E+000");
-                    mf = new MsgForm(msg, false, "计算结果");
+                    NodeInfos topInfo = this.diagram1.Nodes[0].Tag as NodeInfos;
+                    double outdb = 0;
+                    if (!double.TryParse(topInfo.Fxxs, out outdb))
+                    {
+                        mf = new MsgForm("您在顶节点输入的飞行时长不正确！");
+                    }
+                    else
+                    {
+                        double topProbability = getTopProbability();
+                        string msg1 = topProbability.ToString("#.###E+00");
+                        (this.diagram1.Nodes[0].Tag as NodeInfos).Pjsxgl = msg1;
+
+
+                        string msg = "平均每飞行小时失效概率为：  " + topProbability.ToString("#.###E+00") + "\r\n";
+                        msg += "本次飞行失效概率为：  " + (topProbability * double.Parse(topInfo.Fxxs)).ToString("#.###E+00");
+                        mf = new MsgForm(msg, false, "计算结果");
+
+                    }
 
                 }
-
+            }
+            catch (Exception exp)
+            {
+                mf = new MsgForm(exp.Message, false, "错误");
             }
 
             mf.Show();
@@ -1886,9 +1925,12 @@ namespace SyswareFlowChartTest
             //xmlnode.InnerText += " encoding=\"gb2312\"";
             //m_XmlDoc.AppendChild(xmlnode);
             //加入一个根元素
+            SyswareNode topNode = (SyswareNode)this.diagram1.Nodes[0];
+            NodeInfos topNodeInfo = topNode.Tag as NodeInfos;
+
             XmlElement xmlelem = m_XmlDoc.CreateElement("", "FTProject", "");
             xmlelem.SetAttribute("ID", "FT");
-            xmlelem.SetAttribute("FTime", "5");
+            xmlelem.SetAttribute("FTime", topNodeInfo.Fxxs);
             m_XmlDoc.AppendChild(xmlelem);
 
             XmlNode database = m_XmlDoc.SelectSingleNode("FTProject");
@@ -1897,8 +1939,6 @@ namespace SyswareFlowChartTest
             XmlElement nodes = m_XmlDoc.CreateElement("", "Nodes", "");
             //table.SetAttribute("code", dr[1].ToString());
             //table.SetAttribute("name", dr[0].ToString());
-            SyswareNode topNode = (SyswareNode)this.diagram1.Nodes[0];
-            NodeInfos topNodeInfo = topNode.Tag as NodeInfos;
 
             if (topNodeInfo != null)
             {
@@ -2159,6 +2199,8 @@ namespace SyswareFlowChartTest
         }
 
         #endregion
+
+
     }
 }
 

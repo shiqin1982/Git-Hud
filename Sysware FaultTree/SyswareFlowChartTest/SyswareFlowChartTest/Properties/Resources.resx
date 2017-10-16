@@ -124,4 +124,58 @@
   <data name="triangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\triangle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="86-Calculate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\86-Calculate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="保存" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\保存.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="打开" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\打开.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="打开1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\打开1.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="打印" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\打印.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="底" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\底.ICO;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="放大" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\放大.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="复制" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\复制.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="还原" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\还原.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="恢复" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\恢复.ICO;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="计算" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\计算.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="门" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\门.ICO;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="删 除" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\删 除.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="缩小" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\缩小.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="特殊粘帖" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\特殊粘帖.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新建" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\新建.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新建a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\新建a.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="粘帖" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ico\粘帖.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

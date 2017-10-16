@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using SyswareFlowChartTest.Tools;
 
 namespace SyswareFlowChartTest
 {
@@ -16,8 +17,31 @@ namespace SyswareFlowChartTest
         public SetBotNode(NodeInfos nodeInfo)
         {
             InitializeComponent();
-
+            this.textBoxFPGL.LostFocus += textBoxFPGL_LostFocus;
+            this.textBoxJSZQ.LostFocus += textBoxJSZQ_LostFocus;
+            this.textBoxGZL.LostFocus += textBoxGZL_LostFocus;
+            this.textBoxBLSJ.LostFocus += textBoxBLSJ_LostFocus;
             m_nodeInfo = nodeInfo;
+        }
+
+        void textBoxBLSJ_LostFocus(object sender, EventArgs e)
+        {
+            VerificationHelper.textBoxVer(textBoxBLSJ);
+        }
+
+        void textBoxGZL_LostFocus(object sender, EventArgs e)
+        {
+            VerificationHelper.textBoxVer(textBoxGZL);
+        }
+
+        void textBoxJSZQ_LostFocus(object sender, EventArgs e)
+        {
+            VerificationHelper.textBoxVer(textBoxJSZQ);
+        }
+
+        void textBoxFPGL_LostFocus(object sender, EventArgs e)
+        {
+            VerificationHelper.textBoxVer(textBoxFPGL);
         }
         private void SetBotNode_Load(object sender, EventArgs e)
         {
@@ -34,19 +58,29 @@ namespace SyswareFlowChartTest
             this.textBoxGZL.Text = m_nodeInfo.Gzl;
             this.richTextBoxJDMS.Text = m_nodeInfo.Jdms;
             this.comboBox1.Text = m_nodeInfo.Mxlj;
-
+            this.textBoxBLSJ.Text = m_nodeInfo.exposureTime;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            m_nodeInfo.Name = this.textBoxJDMC.Text;
-            m_nodeInfo.AffaType = SetType();// this.comboBoxMLX.Text;
-            m_nodeInfo.Jszq = this.textBoxJSZQ.Text;
-            m_nodeInfo.Fpgl = this.textBoxFPGL.Text;
-            m_nodeInfo.Glms = this.richTextBoxGLMS.Text;
-            m_nodeInfo.Gzl = this.textBoxGZL.Text;
-            m_nodeInfo.Jdms = this.richTextBoxJDMS.Text;
-            m_nodeInfo.Mxlj = this.comboBox1.Text;
+            if (textBoxFPGL.BackColor == Macro.verColor || textBoxJSZQ.BackColor == Macro.verColor ||
+                textBoxGZL.BackColor == Macro.verColor || textBoxBLSJ.BackColor == Macro.verColor)
+            {
+                MsgForm mf = new MsgForm("您输入有误，请检查输入内容！");
+                mf.ShowDialog();
+            }
+            else
+            {
+                m_nodeInfo.Name = this.textBoxJDMC.Text;
+                m_nodeInfo.AffaType = SetType();// this.comboBoxMLX.Text;
+                m_nodeInfo.Jszq = this.textBoxJSZQ.Text;
+                m_nodeInfo.Fpgl = this.textBoxFPGL.Text;
+                m_nodeInfo.Glms = this.richTextBoxGLMS.Text;
+                m_nodeInfo.Gzl = this.textBoxGZL.Text;
+                m_nodeInfo.Jdms = this.richTextBoxJDMS.Text;
+                m_nodeInfo.Mxlj = this.comboBox1.Text;
+                m_nodeInfo.exposureTime = this.textBoxBLSJ.Text;
+            }
         }
         private AffairType SetType()
         {

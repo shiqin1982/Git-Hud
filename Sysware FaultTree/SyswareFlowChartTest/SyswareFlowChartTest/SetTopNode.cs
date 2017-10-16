@@ -15,12 +15,24 @@ namespace SyswareFlowChartTest
     {
         public NodeInfos m_nodeInfo = null;
         private Diagram mDiagram;
+        
         public SetTopNode(NodeInfos nodeInfo, Diagram diagram)
         {
             InitializeComponent();
-
+            this.textBoxFPGL.LostFocus += textBoxFPGL_LostFocus;
+            this.textBoxFXXS.LostFocus += textBoxFXXS_LostFocus;
             m_nodeInfo = nodeInfo;
             mDiagram = diagram;
+        }
+
+        void textBoxFXXS_LostFocus(object sender, EventArgs e)
+        {
+            VerificationHelper.textBoxVer(textBoxFXXS);
+        }
+
+        void textBoxFPGL_LostFocus(object sender, EventArgs e)
+        {
+            VerificationHelper.textBoxVer(textBoxFPGL);
         }
         private void SetTopNode_Load(object sender, EventArgs e)
         {
@@ -69,15 +81,25 @@ namespace SyswareFlowChartTest
 
         private void button1_Click(object sender, EventArgs e)
         {
-            m_nodeInfo.Name = this.textBoxJDMC.Text;
-            m_nodeInfo.Type = SetType();
-            m_nodeInfo.Fxxs = this.textBoxFXXS.Text;
-            m_nodeInfo.Fpgl = this.textBoxFPGL.Text;
-            m_nodeInfo.Glms = this.richTextBoxGLMS.Text;
-            m_nodeInfo.Pjsxgl = this.textBoxPJSXGL.Text;
-            m_nodeInfo.Jdms = this.richTextBoxJDMS.Text;
-            //this.comboBoxMLX.Text = m_nodeInfo.Type.ToString();
-            SaveSubNodeInfo();
+
+            if (textBoxFPGL.BackColor == Macro.verColor || textBoxFXXS.BackColor == Macro.verColor)
+            {
+                MsgForm mf = new MsgForm("您输入有误，请检查输入内容！");
+                mf.ShowDialog();
+            }
+            else
+            {
+                m_nodeInfo.Name = this.textBoxJDMC.Text;
+                m_nodeInfo.Type = SetType();
+                m_nodeInfo.Fxxs = this.textBoxFXXS.Text;
+                m_nodeInfo.Fpgl = this.textBoxFPGL.Text;
+                m_nodeInfo.Glms = this.richTextBoxGLMS.Text;
+                m_nodeInfo.Pjsxgl = this.textBoxPJSXGL.Text;
+                m_nodeInfo.Jdms = this.richTextBoxJDMS.Text;
+                //this.comboBoxMLX.Text = m_nodeInfo.Type.ToString();
+                SaveSubNodeInfo();
+            }
+            
         }
         private NodeType SetType()
         {

@@ -34,11 +34,11 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(View_Results));
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -52,10 +52,6 @@
             this.cutSetNames = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.i = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PrbI = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FVI = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.strtI = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.sjName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -63,6 +59,10 @@
             this.Fpgl = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
+            this.i = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PrbI = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FVI = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.strtI = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -243,50 +243,6 @@
             this.dataGridView3.Size = new System.Drawing.Size(472, 200);
             this.dataGridView3.TabIndex = 0;
             // 
-            // i
-            // 
-            this.i.DataPropertyName = "i";
-            this.i.Frozen = true;
-            this.i.HeaderText = "底事件名称";
-            this.i.Name = "i";
-            this.i.ReadOnly = true;
-            // 
-            // PrbI
-            // 
-            this.PrbI.DataPropertyName = "PrbI";
-            dataGridViewCellStyle6.Format = "N4";
-            dataGridViewCellStyle6.NullValue = null;
-            this.PrbI.DefaultCellStyle = dataGridViewCellStyle6;
-            this.PrbI.Frozen = true;
-            this.PrbI.HeaderText = "概率重要度";
-            this.PrbI.Name = "PrbI";
-            this.PrbI.ReadOnly = true;
-            this.PrbI.Width = 110;
-            // 
-            // FVI
-            // 
-            this.FVI.DataPropertyName = "FVI";
-            dataGridViewCellStyle7.Format = "N4";
-            dataGridViewCellStyle7.NullValue = null;
-            this.FVI.DefaultCellStyle = dataGridViewCellStyle7;
-            this.FVI.Frozen = true;
-            this.FVI.HeaderText = "关键重要度";
-            this.FVI.Name = "FVI";
-            this.FVI.ReadOnly = true;
-            this.FVI.Width = 110;
-            // 
-            // strtI
-            // 
-            this.strtI.DataPropertyName = "StrtI";
-            dataGridViewCellStyle8.Format = "N2";
-            dataGridViewCellStyle8.NullValue = null;
-            this.strtI.DefaultCellStyle = dataGridViewCellStyle8;
-            this.strtI.Frozen = true;
-            this.strtI.HeaderText = "结构重要度";
-            this.strtI.Name = "strtI";
-            this.strtI.ReadOnly = true;
-            this.strtI.Width = 110;
-            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.dataGridView4);
@@ -371,6 +327,51 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // i
+            // 
+            this.i.DataPropertyName = "i";
+            this.i.Frozen = true;
+            this.i.HeaderText = "底事件名称";
+            this.i.Name = "i";
+            this.i.ReadOnly = true;
+            // 
+            // PrbI
+            // 
+            this.PrbI.DataPropertyName = "PrbI";
+            dataGridViewCellStyle6.Format = "N4";
+            dataGridViewCellStyle6.NullValue = null;
+            this.PrbI.DefaultCellStyle = dataGridViewCellStyle6;
+            this.PrbI.Frozen = true;
+            this.PrbI.HeaderText = "Birnbaum重要度";
+            this.PrbI.Name = "PrbI";
+            this.PrbI.ReadOnly = true;
+            this.PrbI.Width = 160;
+            // 
+            // FVI
+            // 
+            this.FVI.DataPropertyName = "FVI";
+            dataGridViewCellStyle7.Format = "N4";
+            dataGridViewCellStyle7.NullValue = null;
+            this.FVI.DefaultCellStyle = dataGridViewCellStyle7;
+            this.FVI.Frozen = true;
+            this.FVI.HeaderText = "FV重要度";
+            this.FVI.Name = "FVI";
+            this.FVI.ReadOnly = true;
+            this.FVI.Width = 110;
+            // 
+            // strtI
+            // 
+            this.strtI.DataPropertyName = "StrtI";
+            dataGridViewCellStyle8.Format = "N2";
+            dataGridViewCellStyle8.NullValue = null;
+            this.strtI.DefaultCellStyle = dataGridViewCellStyle8;
+            this.strtI.Frozen = true;
+            this.strtI.HeaderText = "结构重要度";
+            this.strtI.Name = "strtI";
+            this.strtI.ReadOnly = true;
+            this.strtI.Visible = false;
+            this.strtI.Width = 110;
+            // 
             // View_Results
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -422,12 +423,12 @@
         private System.Windows.Forms.DataGridView dataGridView4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sjName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Type;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Fpgl;
         private System.Windows.Forms.DataGridViewTextBoxColumn i;
         private System.Windows.Forms.DataGridViewTextBoxColumn PrbI;
         private System.Windows.Forms.DataGridViewTextBoxColumn FVI;
         private System.Windows.Forms.DataGridViewTextBoxColumn strtI;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sjName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Type;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Fpgl;
     }
 }

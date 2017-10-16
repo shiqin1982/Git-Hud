@@ -51,6 +51,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.textBoxBLSJ = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button2
@@ -77,7 +79,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(231, 292);
+            this.label10.Location = new System.Drawing.Point(231, 288);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(23, 12);
             this.label10.TabIndex = 35;
@@ -94,7 +96,7 @@
             // 
             // richTextBoxJDMS
             // 
-            this.richTextBoxJDMS.Location = new System.Drawing.Point(82, 358);
+            this.richTextBoxJDMS.Location = new System.Drawing.Point(81, 388);
             this.richTextBoxJDMS.Name = "richTextBoxJDMS";
             this.richTextBoxJDMS.Size = new System.Drawing.Size(173, 58);
             this.richTextBoxJDMS.TabIndex = 33;
@@ -103,7 +105,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(19, 358);
+            this.label8.Location = new System.Drawing.Point(18, 388);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(65, 12);
             this.label8.TabIndex = 32;
@@ -129,7 +131,7 @@
             // 
             // textBoxGZL
             // 
-            this.textBoxGZL.Location = new System.Drawing.Point(81, 287);
+            this.textBoxGZL.Location = new System.Drawing.Point(81, 285);
             this.textBoxGZL.Name = "textBoxGZL";
             this.textBoxGZL.Size = new System.Drawing.Size(144, 21);
             this.textBoxGZL.TabIndex = 29;
@@ -169,7 +171,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(31, 290);
+            this.label7.Location = new System.Drawing.Point(31, 288);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(53, 12);
             this.label7.TabIndex = 22;
@@ -234,7 +236,7 @@
             "基本",
             "True",
             "False"});
-            this.comboBox1.Location = new System.Drawing.Point(81, 323);
+            this.comboBox1.Location = new System.Drawing.Point(80, 353);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(173, 20);
             this.comboBox1.TabIndex = 39;
@@ -242,18 +244,36 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(19, 326);
+            this.label11.Location = new System.Drawing.Point(18, 356);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(65, 12);
             this.label11.TabIndex = 38;
             this.label11.Text = "模型逻辑：";
+            // 
+            // textBoxBLSJ
+            // 
+            this.textBoxBLSJ.Location = new System.Drawing.Point(80, 319);
+            this.textBoxBLSJ.Name = "textBoxBLSJ";
+            this.textBoxBLSJ.Size = new System.Drawing.Size(173, 21);
+            this.textBoxBLSJ.TabIndex = 41;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(18, 322);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(65, 12);
+            this.label12.TabIndex = 40;
+            this.label12.Text = "暴露时间：";
             // 
             // SetBotNode
             // 
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 511);
+            this.ClientSize = new System.Drawing.Size(284, 512);
+            this.Controls.Add(this.textBoxBLSJ);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.button2);
@@ -314,5 +334,7 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label11;
         public System.Windows.Forms.TextBox textBoxJDMC;
+        private System.Windows.Forms.TextBox textBoxBLSJ;
+        private System.Windows.Forms.Label label12;
     }
 }

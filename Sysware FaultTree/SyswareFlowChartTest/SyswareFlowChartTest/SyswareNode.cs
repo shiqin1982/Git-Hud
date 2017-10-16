@@ -35,7 +35,7 @@ namespace SyswareFlowChartTest
             RectangleF b = this.GetBounds();
             RectangleF rectf = new RectangleF();
             rectf.X = b.X;
-            rectf.Y = b.Y +0.5f;
+            rectf.Y = b.Y + 0.5f;
             rectf.Width = b.Width;
             rectf.Height = 9;
             StringFormat format1 = new StringFormat();
@@ -43,31 +43,111 @@ namespace SyswareFlowChartTest
             NodeInfos ni = this.Tag as NodeInfos;
             graphics.DrawString(ni.Jdms, new Font("宋体", 8), mb, rectf, format1);
             //graphics.DrawString(this.Text, new Font("宋体", 11), mysbrush1, rectf, format1);
+            ////概率分配显示
+            ShowGlfp(graphics ,ni);
+
             if (ni.ItemType == "底")
             {
+                string str = GetEventString(ni);
                 System.Drawing.SolidBrush mb1 = new System.Drawing.SolidBrush(Color.Black);
                 RectangleF gzl = new RectangleF();
                 gzl.X = b.X;
                 gzl.Y = b.Y + 24.5f;
                 gzl.Width = b.Width;
                 gzl.Height = 4;
-                string str = "";
-                if (ni.Gzl == null)
-                    str = "r=0";
-                else
-                {
-                    if (ni.Gzl.Trim() == "")
-                        str = "r=0";
-                    else
-                        str = "r=" + ni.Gzl + "E-6";
-                }
                 graphics.DrawString(str, new Font("宋体", 9), mb1, gzl, format1);
+            }
+            else if (ni.ItemType == "顶")
+            {
+                string str = GetTopString(ni);
+                if (str != "")
+                {
+                    System.Drawing.SolidBrush mb1 = new System.Drawing.SolidBrush(Color.Black);
+                    RectangleF gzl = new RectangleF();
+                    gzl.X = b.X;
+                    gzl.Y = b.Y + 23.5f;
+                    gzl.Width = b.Width;
+                    gzl.Height = 4;
+                    graphics.DrawString(str, new Font("宋体", 8), mb1, gzl, format1);
+                }
             }
 
             this.TextFormat = format1;
             this.TextPadding = new Thickness(0, 16f, 0, 0);
 
             // graphics.Dispose();
+        }
+        private void ShowGlfp(IGraphics graphics, NodeInfos ni)
+        {
+            string str = GetFpglString(ni);
+            if (str != "")
+            {
+                RectangleF b = this.GetBounds();
+                System.Drawing.SolidBrush mb1 = new System.Drawing.SolidBrush(Color.Black);
+                RectangleF gzl = new RectangleF();
+                gzl.X = b.X;
+                gzl.Y = b.Y-3f;
+                gzl.Width = b.Width;
+                gzl.Height = 3;
+                StringFormat format1 = new StringFormat();
+                format1.Alignment = StringAlignment.Near;
+                graphics.DrawString(str, new Font("宋体", 7), mb1, gzl, format1);
+            }
+        }
+        private string GetFpglString(NodeInfos ni)
+        {
+            string ret = "";
+            if (ni.Fpgl != null)
+            {
+                if (ni.Fpgl.Trim() != "")
+                {
+                    double d = double.Parse(ni.Fpgl.Trim()) * 1.0e-6;
+                    ret = "P=" + d.ToString("#.##E+0");
+                }
+            }
+            return ret;
+        }
+        private string GetEventString(NodeInfos ni)
+        {
+            string ret = "r=0";
+            if (ni.AffaType == AffairType.房型事件)
+            {
+                if (ni.Mxlj.ToLower() == "true")
+                    ret = "r=true";
+                else
+                    ret = "r=false";
+            }
+            else
+            {
+                if (ni.Gzl == null)
+                    ret = "r=0";
+                else
+                {
+                    if (ni.Gzl.Trim() == "")
+                        ret = "r=0";
+                    else
+                    {
+                        double d = double.Parse(ni.Gzl.Trim()) * 1.0e-6;
+                        ret = "r=" + d.ToString("#.##E+0");
+                    }
+                }
+            }
+
+
+            return ret;
+        }
+        private string GetTopString(NodeInfos ni)
+        {
+            string ret = "";
+            if (ni.Pjsxgl != null)
+            {
+                if (ni.Pjsxgl.Trim() != "")
+                {
+                    double d = double.Parse(ni.Pjsxgl.Trim());
+                    ret = "Pf=" + d.ToString("#.##E+0");
+                }
+            }
+            return ret;
         }
         public SyswareNode Copy()
         {

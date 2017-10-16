@@ -128,7 +128,7 @@ namespace SyswareFlowChartTest
             set;
         }
         /// <summary>
-        /// 节点类型(门 ， 底 )
+        /// 节点类型(顶 ，门 ， 底 )
         /// </summary>
         public string ItemType
         {
@@ -147,6 +147,14 @@ namespace SyswareFlowChartTest
         /// 分页
         /// </summary>
         public bool isPager
+        {
+            get;
+            set;
+        }
+        /// <summary>
+        /// 暴露时间
+        /// </summary>
+        public string exposureTime
         {
             get;
             set;
