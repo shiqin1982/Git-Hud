@@ -73,6 +73,8 @@ namespace SyswareFlowChartTest
             dataGridView1.Rows[index].Cells[4].Value = ni.glZYD;
             dataGridView1.Rows[index].Cells[5].Value = ni.glZHQZ;
             dataGridView1.Rows[index].Cells[6].Value = ni.Fpgl;
+            if (ni.Fpgl != null && ni.Fpgl.Trim() != "")
+                dataGridView1.Rows[index].Cells[6].Value = double.Parse(ni.Fpgl) / 1e6;
         }
         private SyswareNode GetNode(NameCodeType nct)
         {
@@ -142,6 +144,8 @@ namespace SyswareFlowChartTest
             ni.glZYD = dataGridView1.Rows[row].Cells[4].Value == null ? "" : dataGridView1.Rows[row].Cells[4].Value.ToString();
             ni.glZHQZ = dataGridView1.Rows[row].Cells[5].Value == null ? "" : dataGridView1.Rows[row].Cells[5].Value.ToString();
             ni.Fpgl = dataGridView1.Rows[row].Cells[6].Value == null ? "" : dataGridView1.Rows[row].Cells[6].Value.ToString();
+            if (ni.Fpgl != "")
+                ni.Fpgl = (double.Parse(ni.Fpgl) * 1e6).ToString("f3");
         }
         private NodeType SetType()
         {
@@ -222,7 +226,7 @@ namespace SyswareFlowChartTest
             for (int i = 0; i < count; i++)
             {
                 dataGridView1.Rows[i].Cells[5].Value = cgl.m_QZ[i].ToString("f3");
-                dataGridView1.Rows[i].Cells[6].Value = cgl.m_sub_fpgl[i].ToString("f3");
+                dataGridView1.Rows[i].Cells[6].Value = cgl.m_sub_fpgl[i].ToString("#.###E+00");
             }
         }
 
@@ -245,22 +249,37 @@ namespace SyswareFlowChartTest
 
         private void dataGridView1_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
         {
-            if (e.ColumnIndex != 2 && e.ColumnIndex != 3 && e.ColumnIndex != 4)
+            if (e.ColumnIndex == 0 || e.ColumnIndex == 1)
             {
                 return;
             }
-            string[] inPutStr = {"1","2","3","4","5"};
-            if (inPutStr.Contains(e.FormattedValue.ToString()))
+            if (e.ColumnIndex == 5 || e.ColumnIndex == 6)
             {
-                e.Cancel = false;
+                double outDb = 0;
+                if (double.TryParse(e.FormattedValue.ToString(), out outDb))
+                {
+                    e.Cancel = false;
+                }
+                else
+                {
+                    e.Cancel = true;//数据格式不正确则还原
+                    dataGridView1.CancelEdit();
+                }
             }
             else
             {
-                dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].Value = "";
-                e.Cancel = true;//数据格式不正确则还原
-                dataGridView1.CancelEdit();
-                
+                string[] inPutStr = { "1", "2", "3", "4", "5" };
+                if (inPutStr.Contains(e.FormattedValue.ToString()))
+                {
+                    e.Cancel = false;
+                }
+                else
+                {
+                    e.Cancel = true;//数据格式不正确则还原
+                    dataGridView1.CancelEdit();
+                }
             }
+            
         }
 
         private void comboBoxMLX_SelectedIndexChanged(object sender, EventArgs e)

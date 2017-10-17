@@ -30,7 +30,7 @@ namespace SyswareFlowChartTest
         public List<double> m_sub_fpgl;
         public CalGL(double _fpgl, List<List<double>> _data, NodeType _nodeType)
         {
-            m_fpgl = _fpgl;
+            m_fpgl = _fpgl*1e-6;
             m_dataMatrix = _data;
             m_nodeType = _nodeType;
             m_QZ = new List<double>();

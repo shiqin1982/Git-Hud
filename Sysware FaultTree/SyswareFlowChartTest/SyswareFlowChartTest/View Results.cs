@@ -28,12 +28,12 @@ namespace SyswareFlowChartTest
             InitializeComponent();
         }
 
-        public void setData(string resultCutSet, double topProbability, string bottomImportance, List<ProResult> prList)
+        public void setData(string resultCutSet, double topProbability, string bottomImportance, List<ProResult> prList,NodeInfos topInfo)
         {
             _resultCutSet = resultCutSet;
             _prList = prList;
             textBox1.Text = "平均每飞行小时失效概率为：\r\n" + topProbability.ToString("#.###E+00");
-
+            textBox1.Text += "\r\n本次飞行失效概率为：\r\n" + (topProbability * double.Parse(topInfo.Fxxs)).ToString("#.###E+00");
             DataSet ds1 = Data2Conversion.ConvertXml2DataSet(resultCutSet);
             DataSet ds3 = Data2Conversion.ConvertXml2DataSet(bottomImportance);
 

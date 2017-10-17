@@ -1851,9 +1851,9 @@ namespace SyswareFlowChartTest
                 string bottomImportance = getBottomImportance();
                 List<ProResult> prList = getNodes();
                 View_Results vr = new View_Results();
-
+                NodeInfos ni = this.diagram1.Nodes[0].Tag as NodeInfos;
                 vr.Show();
-                vr.setData(resultCutSet, topProbability, bottomImportance, prList);
+                vr.setData(resultCutSet, topProbability, bottomImportance, prList, ni);
             }
             catch (Exception exp)
             {
