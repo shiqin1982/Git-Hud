@@ -2,3 +2,7 @@ c:\users\edwin\documents\visual studio 2013\Projects\ZXQX\ZXQX\bin\Debug\ZXQX.ex
 c:\users\edwin\documents\visual studio 2013\Projects\ZXQX\ZXQX\obj\Debug\ZXQX.csprojResolveAssemblyReference.cache
 c:\users\edwin\documents\visual studio 2013\Projects\ZXQX\ZXQX\obj\Debug\ZXQX.Properties.Resources.resources
 c:\users\edwin\documents\visual studio 2013\Projects\ZXQX\ZXQX\obj\Debug\ZXQX.csproj.GenerateResource.Cache
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\ZXQX\ZXQX\bin\Debug\ZXQX.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\ZXQX\ZXQX\obj\Debug\ZXQX.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\ZXQX\ZXQX\obj\Debug\ZXQX.Properties.Resources.resources
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\ZXQX\ZXQX\obj\Debug\ZXQX.csproj.GenerateResource.Cache
