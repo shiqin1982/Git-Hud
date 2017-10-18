@@ -1,1 +1,2 @@
-http://www.cnblogs.com/huobaby/archive/2012/07/11/2587219.html
+http://www.cnblogs.com/huobaby/archive/2012/07/11/2587219.html //C#函数大全
+http://www.cnblogs.com/yaozhenfa/p/functional_create.html              //C#函数式编程之由函数构建函数
