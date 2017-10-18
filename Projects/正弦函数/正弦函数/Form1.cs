@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace 正弦函数
 {
     public partial class Form1 : Form
     {
@@ -16,7 +16,7 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
-        private void Form1_Paint(object sender, PaintEventArgs e)
+         private void Form1_Paint(object sender, PaintEventArgs e)
         {
             //坐标轴
             e.Graphics.DrawLine(Pens.Black, 0, pictureBox1.Height / 2, pictureBox1.Width, pictureBox1.Height / 2);
