@@ -1,3 +1,4 @@
 http://www.cnblogs.com/huobaby/archive/2012/07/11/2587219.html //C#函数大全
 http://www.cnblogs.com/yaozhenfa/p/functional_create.html              //C#函数式编程之由函数构建函数
 http://www.cnblogs.com/wuzhang/p/wuzhang20141122.html             //C# 数据的序列化存取
+http://blog.csdn.net/gpwner/article/details/53140016                         //Git教程之一个团队如何在github上协作开发
