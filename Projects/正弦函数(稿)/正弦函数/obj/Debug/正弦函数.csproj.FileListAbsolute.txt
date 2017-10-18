@@ -7,3 +7,12 @@ C:\Users\Edwin\Desktop\正弦函数\正弦函数\正弦函数\obj\Debug\正弦�
 C:\Users\Edwin\Desktop\正弦函数\正弦函数\正弦函数\obj\Debug\正弦函数.csproj.GenerateResource.Cache
 C:\Users\Edwin\Desktop\正弦函数\正弦函数\正弦函数\obj\Debug\正弦函数.exe
 C:\Users\Edwin\Desktop\正弦函数\正弦函数\正弦函数\obj\Debug\正弦函数.pdb
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数(稿)\正弦函数\bin\Debug\正弦函数.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数(稿)\正弦函数\obj\Debug\正弦函数.exe
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数(稿)\正弦函数\obj\Debug\正弦函数.pdb
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数(稿)\正弦函数\bin\Debug\正弦函数.exe
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数(稿)\正弦函数\bin\Debug\正弦函数.pdb
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数(稿)\正弦函数\obj\Debug\正弦函数.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数(稿)\正弦函数\obj\Debug\正弦函数.Form1.resources
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数(稿)\正弦函数\obj\Debug\正弦函数.Properties.Resources.resources
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数(稿)\正弦函数\obj\Debug\正弦函数.csproj.GenerateResource.Cache

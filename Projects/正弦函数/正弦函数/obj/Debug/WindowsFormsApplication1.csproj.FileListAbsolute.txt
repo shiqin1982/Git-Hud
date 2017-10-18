@@ -7,3 +7,12 @@ C:\Users\Edwin\Desktop\正弦函数\WindowsFormsApplication1\WindowsFormsApplica
 C:\Users\Edwin\Desktop\正弦函数\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\Edwin\Desktop\正弦函数\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
 C:\Users\Edwin\Desktop\正弦函数\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数\正弦函数\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数\正弦函数\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数\正弦函数\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数\正弦函数\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数\正弦函数\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数\正弦函数\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数\正弦函数\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数\正弦函数\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Edwin\Downloads\项目资料\Git Hud\Projects\正弦函数\正弦函数\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
