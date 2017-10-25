@@ -1,0 +1,6 @@
+c:\users\dell\documents\visual studio 2015\Projects\Kindergarten\Kindergarten\bin\Debug\Kindergarten.exe.config
+C:\Users\dell\Documents\Visual Studio 2015\Projects\Kindergarten\Kindergarten\bin\Debug\Kindergarten.exe
+C:\Users\dell\Documents\Visual Studio 2015\Projects\Kindergarten\Kindergarten\bin\Debug\Kindergarten.pdb
+C:\Users\dell\Documents\Visual Studio 2015\Projects\Kindergarten\Kindergarten\obj\Debug\Kindergarten.csprojResolveAssemblyReference.cache
+C:\Users\dell\Documents\Visual Studio 2015\Projects\Kindergarten\Kindergarten\obj\Debug\Kindergarten.exe
+C:\Users\dell\Documents\Visual Studio 2015\Projects\Kindergarten\Kindergarten\obj\Debug\Kindergarten.pdb
