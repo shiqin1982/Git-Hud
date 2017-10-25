@@ -1,0 +1,26 @@
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\Common\bin\Debug\XHD.Common.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\Common\bin\Debug\XHD.Common.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\Common\bin\Debug\COM.Excel.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\Common\bin\Debug\Excel.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\Common\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\Common\bin\Debug\OpenSmtp.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\Common\bin\Debug\OWC10Chart.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\Common\obj\Debug\XHD.Common.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\Common\obj\Debug\XHD.Common.pdb
+F:\VS 2010\XHD\Common\bin\Debug\XHD.Common.pdb
+F:\VS 2010\XHD\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+F:\VS 2010\XHD\Common\obj\Debug\XHD.Common.dll
+F:\VS 2010\XHD\Common\obj\Debug\XHD.Common.pdb
+F:\VS 2010\XHDcrm\Common\bin\Debug\XHD.Common.pdb
+F:\VS 2010\XHDcrm\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+F:\VS 2010\XHDcrm\Common\obj\Debug\XHD.Common.dll
+F:\VS 2010\XHDcrm\Common\obj\Debug\XHD.Common.pdb
+F:\VS 2010\XHDcrm\Common\bin\Debug\XHD.Common.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Common\bin\Debug\XHD.Common.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Common\bin\Debug\XHD.Common.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Common\bin\Debug\office.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Common\obj\Debug\XHD.Common.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Common\obj\Debug\XHD.Common.pdb

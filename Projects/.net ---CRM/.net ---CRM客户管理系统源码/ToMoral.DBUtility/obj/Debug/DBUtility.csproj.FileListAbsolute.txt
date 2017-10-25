@@ -1,0 +1,22 @@
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DBUtility\bin\Debug\XHD.DBUtility.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DBUtility\bin\Debug\XHD.DBUtility.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DBUtility\bin\Debug\IBatisNet.Common.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DBUtility\bin\Debug\IBatisNet.DataMapper.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DBUtility\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DBUtility\bin\Debug\System.Data.SQLite.DLL
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DBUtility\obj\Debug\XHD.DBUtility.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DBUtility\obj\Debug\XHD.DBUtility.pdb
+F:\VS 2010\XHD\DBUtility\bin\Debug\XHD.DBUtility.pdb
+F:\VS 2010\XHD\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+F:\VS 2010\XHD\DBUtility\obj\Debug\XHD.DBUtility.dll
+F:\VS 2010\XHD\DBUtility\obj\Debug\XHD.DBUtility.pdb
+F:\VS 2010\XHDcrm\DBUtility\bin\Debug\XHD.DBUtility.pdb
+F:\VS 2010\XHDcrm\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+F:\VS 2010\XHDcrm\DBUtility\obj\Debug\XHD.DBUtility.dll
+F:\VS 2010\XHDcrm\DBUtility\obj\Debug\XHD.DBUtility.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DBUtility\bin\Debug\XHD.DBUtility.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DBUtility\bin\Debug\XHD.DBUtility.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DBUtility\obj\Debug\XHD.DBUtility.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DBUtility\obj\Debug\XHD.DBUtility.pdb

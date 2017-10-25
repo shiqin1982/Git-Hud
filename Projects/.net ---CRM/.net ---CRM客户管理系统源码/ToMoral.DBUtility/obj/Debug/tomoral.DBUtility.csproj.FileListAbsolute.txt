@@ -1,0 +1,18 @@
+D:\XHD\ToMoral.DBUtility\bin\Debug\tomoral.DBUtility.dll
+D:\XHD\ToMoral.DBUtility\bin\Debug\tomoral.DBUtility.pdb
+D:\XHD\ToMoral.DBUtility\obj\Debug\tomoral.DBUtility.dll
+D:\XHD\ToMoral.DBUtility\obj\Debug\tomoral.DBUtility.pdb
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.DBUtility\bin\Debug\tomoral.DBUtility.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.DBUtility\bin\Debug\tomoral.DBUtility.pdb
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.DBUtility\obj\Debug\tomoral.DBUtility.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.DBUtility\obj\Debug\tomoral.DBUtility.pdb
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.DBUtility\obj\Debug\tomoral.DBUtility.csprojResolveAssemblyReference.cache
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.DBUtility\bin\Debug\tomoral.DBUtility.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.DBUtility\bin\Debug\tomoral.DBUtility.pdb
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.DBUtility\obj\Debug\tomoral.DBUtility.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.DBUtility\obj\Debug\tomoral.DBUtility.pdb
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.DBUtility\bin\Debug\tomoral.DBUtility.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.DBUtility\bin\Debug\tomoral.DBUtility.pdb
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.DBUtility\obj\Debug\tomoral.DBUtility.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.DBUtility\obj\Debug\tomoral.DBUtility.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.DBUtility\obj\Debug\tomoral.DBUtility.pdb

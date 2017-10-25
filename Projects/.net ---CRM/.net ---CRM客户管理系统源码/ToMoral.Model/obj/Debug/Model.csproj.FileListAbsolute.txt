@@ -1,0 +1,39 @@
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\Model\bin\Debug\XHD.Model.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\Model\bin\Debug\XHD.Model.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\Model\obj\Debug\XHD.Model.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\Model\obj\Debug\XHD.Model.pdb
+F:\VS 2010\XHD\Model\bin\Debug\XHD.Model.dll
+F:\VS 2010\XHD\Model\bin\Debug\XHD.Model.pdb
+F:\VS 2010\XHD\Model\bin\Debug\XHD.Common.dll
+F:\VS 2010\XHD\Model\bin\Debug\Newtonsoft.Json.Net35.dll
+F:\VS 2010\XHD\Model\bin\Debug\OpenSmtp.dll
+F:\VS 2010\XHD\Model\bin\Debug\Excel.dll
+F:\VS 2010\XHD\Model\bin\Debug\COM.Excel.dll
+F:\VS 2010\XHD\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+F:\VS 2010\XHD\Model\obj\Debug\XHD.Model.dll
+F:\VS 2010\XHD\Model\obj\Debug\XHD.Model.pdb
+F:\VS 2010\XHD\Model\bin\Debug\XHD.Common.pdb
+F:\VS 2010\XHDcrm\Model\bin\Debug\XHD.Model.dll
+F:\VS 2010\XHDcrm\Model\bin\Debug\XHD.Model.pdb
+F:\VS 2010\XHDcrm\Model\bin\Debug\XHD.Common.dll
+F:\VS 2010\XHDcrm\Model\bin\Debug\Newtonsoft.Json.Net35.dll
+F:\VS 2010\XHDcrm\Model\bin\Debug\OpenSmtp.dll
+F:\VS 2010\XHDcrm\Model\bin\Debug\Excel.dll
+F:\VS 2010\XHDcrm\Model\bin\Debug\COM.Excel.dll
+F:\VS 2010\XHDcrm\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+F:\VS 2010\XHDcrm\Model\obj\Debug\XHD.Model.dll
+F:\VS 2010\XHDcrm\Model\obj\Debug\XHD.Model.pdb
+F:\VS 2010\XHDcrm\Model\bin\Debug\XHD.Common.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Model\bin\Debug\XHD.Model.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Model\bin\Debug\XHD.Model.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Model\bin\Debug\XHD.Common.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Model\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Model\bin\Debug\OpenSmtp.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Model\bin\Debug\Excel.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Model\bin\Debug\COM.Excel.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Model\bin\Debug\office.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Model\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Model\bin\Debug\XHD.Common.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Model\obj\Debug\XHD.Model.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\Model\obj\Debug\XHD.Model.pdb

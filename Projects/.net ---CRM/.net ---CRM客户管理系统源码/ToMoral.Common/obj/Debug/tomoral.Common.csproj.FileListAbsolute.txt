@@ -1,0 +1,18 @@
+D:\XHD\ToMoral.Common\bin\Debug\tomoral.Common.dll
+D:\XHD\ToMoral.Common\bin\Debug\tomoral.Common.pdb
+D:\XHD\ToMoral.Common\obj\Debug\tomoral.Common.dll
+D:\XHD\ToMoral.Common\obj\Debug\tomoral.Common.pdb
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.Common\bin\Debug\tomoral.Common.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.Common\bin\Debug\tomoral.Common.pdb
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.Common\obj\Debug\tomoral.Common.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.Common\obj\Debug\tomoral.Common.pdb
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.Common\obj\Debug\tomoral.Common.csprojResolveAssemblyReference.cache
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.Common\bin\Debug\tomoral.Common.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.Common\bin\Debug\tomoral.Common.pdb
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.Common\obj\Debug\tomoral.Common.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.Common\obj\Debug\tomoral.Common.pdb
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.Common\bin\Debug\tomoral.Common.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.Common\bin\Debug\tomoral.Common.pdb
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.Common\obj\Debug\tomoral.Common.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.Common\obj\Debug\tomoral.Common.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.Common\obj\Debug\tomoral.Common.pdb
