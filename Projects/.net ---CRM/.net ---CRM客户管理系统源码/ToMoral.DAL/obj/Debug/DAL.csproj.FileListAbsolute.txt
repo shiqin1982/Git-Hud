@@ -1,0 +1,94 @@
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\XHD.DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\XHD.DAL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\XHD.Common.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\XHD.DBUtility.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\XHD.Model.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\Newtonsoft.Json.Net35.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\OpenSmtp.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\Excel.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\COM.Excel.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\IBatisNet.DataMapper.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\IBatisNet.Common.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\System.Data.SQLite.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\XHD.Common.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\XHD.DBUtility.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\bin\Debug\XHD.Model.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\obj\Debug\XHD.DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\XHD\DAL\obj\Debug\XHD.DAL.pdb
+F:\VS 2010\XHD\DAL\bin\Debug\XHD.DAL.dll
+F:\VS 2010\XHD\DAL\bin\Debug\XHD.DAL.pdb
+F:\VS 2010\XHD\DAL\bin\Debug\MySql.Data.dll
+F:\VS 2010\XHD\DAL\bin\Debug\XHD.Common.dll
+F:\VS 2010\XHD\DAL\bin\Debug\XHD.DBUtility.dll
+F:\VS 2010\XHD\DAL\bin\Debug\XHD.Model.dll
+F:\VS 2010\XHD\DAL\bin\Debug\Newtonsoft.Json.Net35.dll
+F:\VS 2010\XHD\DAL\bin\Debug\OpenSmtp.dll
+F:\VS 2010\XHD\DAL\bin\Debug\Excel.dll
+F:\VS 2010\XHD\DAL\bin\Debug\COM.Excel.dll
+F:\VS 2010\XHD\DAL\bin\Debug\IBatisNet.DataMapper.dll
+F:\VS 2010\XHD\DAL\bin\Debug\IBatisNet.Common.dll
+F:\VS 2010\XHD\DAL\bin\Debug\System.Data.SQLite.dll
+F:\VS 2010\XHD\DAL\bin\Debug\XHD.Model.pdb
+F:\VS 2010\XHD\DAL\bin\Debug\XHD.Common.pdb
+F:\VS 2010\XHD\DAL\bin\Debug\XHD.DBUtility.pdb
+F:\VS 2010\XHD\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\VS 2010\XHD\DAL\obj\Debug\XHD.DAL.dll
+F:\VS 2010\XHD\DAL\obj\Debug\XHD.DAL.pdb
+F:\VS 2010\XHDcrm\DAL\bin\Debug\XHD.DAL.dll
+F:\VS 2010\XHDcrm\DAL\bin\Debug\XHD.DAL.pdb
+F:\VS 2010\XHDcrm\DAL\bin\Debug\XHD.Common.dll
+F:\VS 2010\XHDcrm\DAL\bin\Debug\XHD.DBUtility.dll
+F:\VS 2010\XHDcrm\DAL\bin\Debug\XHD.Model.dll
+F:\VS 2010\XHDcrm\DAL\bin\Debug\Newtonsoft.Json.Net35.dll
+F:\VS 2010\XHDcrm\DAL\bin\Debug\OpenSmtp.dll
+F:\VS 2010\XHDcrm\DAL\bin\Debug\Excel.dll
+F:\VS 2010\XHDcrm\DAL\bin\Debug\COM.Excel.dll
+F:\VS 2010\XHDcrm\DAL\bin\Debug\IBatisNet.DataMapper.dll
+F:\VS 2010\XHDcrm\DAL\bin\Debug\IBatisNet.Common.dll
+F:\VS 2010\XHDcrm\DAL\bin\Debug\XHD.Model.pdb
+F:\VS 2010\XHDcrm\DAL\bin\Debug\XHD.Common.pdb
+F:\VS 2010\XHDcrm\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\VS 2010\XHDcrm\DAL\obj\Debug\XHD.DAL.dll
+F:\VS 2010\XHDcrm\DAL\obj\Debug\XHD.DAL.pdb
+F:\VS 2010\XHDcrm\DAL\bin\Debug\XHD.DBUtility.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\XHD.DAL.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\XHD.DAL.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\MySql.Data.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\XHD.Common.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\XHD.DBUtility.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\XHD.Model.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\OpenSmtp.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\Excel.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\COM.Excel.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\IBatisNet.DataMapper.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\IBatisNet.Common.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\office.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\XHD.Model.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\XHD.Common.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\bin\Debug\XHD.DBUtility.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\obj\Debug\XHD.DAL.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\DAL\obj\Debug\XHD.DAL.pdb
+D:\XHD\ToMoral.DAL\bin\Debug\XHD.DAL.dll
+D:\XHD\ToMoral.DAL\bin\Debug\XHD.DAL.pdb
+D:\XHD\ToMoral.DAL\bin\Debug\tomoral.Common.dll
+D:\XHD\ToMoral.DAL\bin\Debug\tomoral.DBUtility.dll
+D:\XHD\ToMoral.DAL\bin\Debug\tomoral.Model.dll
+D:\XHD\ToMoral.DAL\bin\Debug\Newtonsoft.Json.Net35.dll
+D:\XHD\ToMoral.DAL\bin\Debug\OpenSmtp.dll
+D:\XHD\ToMoral.DAL\bin\Debug\Excel.dll
+D:\XHD\ToMoral.DAL\bin\Debug\COM.Excel.dll
+D:\XHD\ToMoral.DAL\bin\Debug\IBatisNet.DataMapper.dll
+D:\XHD\ToMoral.DAL\bin\Debug\IBatisNet.Common.dll
+D:\XHD\ToMoral.DAL\bin\Debug\office.dll
+D:\XHD\ToMoral.DAL\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\XHD\ToMoral.DAL\bin\Debug\tomoral.Common.pdb
+D:\XHD\ToMoral.DAL\bin\Debug\tomoral.DBUtility.pdb
+D:\XHD\ToMoral.DAL\bin\Debug\tomoral.Model.pdb
+D:\XHD\ToMoral.DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\XHD\ToMoral.DAL\obj\Debug\XHD.DAL.dll
+D:\XHD\ToMoral.DAL\obj\Debug\XHD.DAL.pdb

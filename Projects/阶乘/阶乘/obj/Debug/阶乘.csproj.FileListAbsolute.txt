@@ -1,0 +1,6 @@
+C:\Users\Edwin\Desktop\阶乘\阶乘\bin\Debug\阶乘.exe.config
+C:\Users\Edwin\Desktop\阶乘\阶乘\obj\Debug\阶乘.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Desktop\阶乘\阶乘\bin\Debug\阶乘.exe
+C:\Users\Edwin\Desktop\阶乘\阶乘\bin\Debug\阶乘.pdb
+C:\Users\Edwin\Desktop\阶乘\阶乘\obj\Debug\阶乘.exe
+C:\Users\Edwin\Desktop\阶乘\阶乘\obj\Debug\阶乘.pdb

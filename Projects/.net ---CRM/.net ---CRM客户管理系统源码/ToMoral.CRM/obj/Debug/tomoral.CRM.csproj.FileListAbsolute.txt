@@ -1,0 +1,117 @@
+D:\XHD\ToMoral.CRM\bin\CRM.dll
+D:\XHD\ToMoral.CRM\bin\CRM.pdb
+D:\XHD\ToMoral.CRM\bin\tomoral.BLL.dll
+D:\XHD\ToMoral.CRM\bin\tomoral.Common.dll
+D:\XHD\ToMoral.CRM\bin\tomoral.DAL.dll
+D:\XHD\ToMoral.CRM\bin\tomoral.DBUtility.dll
+D:\XHD\ToMoral.CRM\bin\tomoral.Model.dll
+D:\XHD\ToMoral.CRM\bin\Newtonsoft.Json.Net35.dll
+D:\XHD\ToMoral.CRM\bin\OpenSmtp.dll
+D:\XHD\ToMoral.CRM\bin\Excel.dll
+D:\XHD\ToMoral.CRM\bin\COM.Excel.dll
+D:\XHD\ToMoral.CRM\bin\IBatisNet.DataMapper.dll
+D:\XHD\ToMoral.CRM\bin\IBatisNet.Common.dll
+D:\XHD\ToMoral.CRM\bin\MySql.Data.dll
+D:\XHD\ToMoral.CRM\bin\tomoral.BLL.pdb
+D:\XHD\ToMoral.CRM\bin\tomoral.Common.pdb
+D:\XHD\ToMoral.CRM\bin\tomoral.DAL.pdb
+D:\XHD\ToMoral.CRM\bin\tomoral.DBUtility.pdb
+D:\XHD\ToMoral.CRM\bin\tomoral.Model.pdb
+D:\XHD\ToMoral.CRM\obj\Debug\tomoral.CRM.csprojResolveAssemblyReference.cache
+D:\XHD\ToMoral.CRM\obj\Debug\tomoral.CRM.csproj.ResolveComReference.cache
+D:\XHD\ToMoral.CRM\obj\Debug\CRM.dll
+D:\XHD\ToMoral.CRM\obj\Debug\CRM.pdb
+D:\我的项目\TMCRM\ToMoral.CRM\bin\CRM.dll
+D:\我的项目\TMCRM\ToMoral.CRM\bin\CRM.pdb
+D:\我的项目\TMCRM\ToMoral.CRM\bin\tomoral.BLL.dll
+D:\我的项目\TMCRM\ToMoral.CRM\bin\tomoral.Common.dll
+D:\我的项目\TMCRM\ToMoral.CRM\bin\tomoral.DAL.dll
+D:\我的项目\TMCRM\ToMoral.CRM\bin\tomoral.DBUtility.dll
+D:\我的项目\TMCRM\ToMoral.CRM\bin\tomoral.Model.dll
+D:\我的项目\TMCRM\ToMoral.CRM\bin\Newtonsoft.Json.Net35.dll
+D:\我的项目\TMCRM\ToMoral.CRM\bin\OpenSmtp.dll
+D:\我的项目\TMCRM\ToMoral.CRM\bin\Excel.dll
+D:\我的项目\TMCRM\ToMoral.CRM\bin\COM.Excel.dll
+D:\我的项目\TMCRM\ToMoral.CRM\bin\IBatisNet.DataMapper.dll
+D:\我的项目\TMCRM\ToMoral.CRM\bin\IBatisNet.Common.dll
+D:\我的项目\TMCRM\ToMoral.CRM\bin\MySql.Data.dll
+D:\我的项目\TMCRM\ToMoral.CRM\bin\tomoral.BLL.pdb
+D:\我的项目\TMCRM\ToMoral.CRM\bin\tomoral.Common.pdb
+D:\我的项目\TMCRM\ToMoral.CRM\bin\tomoral.DAL.pdb
+D:\我的项目\TMCRM\ToMoral.CRM\bin\tomoral.DBUtility.pdb
+D:\我的项目\TMCRM\ToMoral.CRM\bin\tomoral.Model.pdb
+D:\我的项目\TMCRM\ToMoral.CRM\obj\Debug\tomoral.CRM.csprojResolveAssemblyReference.cache
+D:\我的项目\TMCRM\ToMoral.CRM\obj\Debug\tomoral.CRM.csproj.ResolveComReference.cache
+D:\我的项目\TMCRM\ToMoral.CRM\obj\Debug\CRM.dll
+D:\我的项目\TMCRM\ToMoral.CRM\obj\Debug\CRM.pdb
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\obj\Debug\tomoral.CRM.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\obj\Debug\CRM.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\obj\Debug\CRM.pdb
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\CRM.dll.config
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\CRM.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\CRM.pdb
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.BLL.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.Common.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.DAL.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.DBUtility.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.Model.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\VBIDE.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\Newtonsoft.Json.Net35.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\OpenSmtp.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\Excel.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\COM.Excel.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\IBatisNet.DataMapper.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\IBatisNet.Common.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\MySql.Data.dll
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.BLL.pdb
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.Common.pdb
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.DAL.pdb
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.DBUtility.pdb
+C:\Users\Administrator\Desktop\新建文件夹\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.Model.pdb
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\CRM.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\CRM.pdb
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.BLL.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.Common.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.DAL.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.DBUtility.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.Model.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\VBIDE.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\Newtonsoft.Json.Net35.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\OpenSmtp.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\Excel.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\COM.Excel.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\IBatisNet.DataMapper.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\IBatisNet.Common.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\MySql.Data.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.BLL.pdb
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.Common.pdb
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.DAL.pdb
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.DBUtility.pdb
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.Model.pdb
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\obj\Debug\tomoral.CRM.csprojResolveAssemblyReference.cache
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\obj\Debug\CRM.dll
+E:\学习\BN0143-CRM客户管理系统源码\ToMoral.CRM\obj\Debug\CRM.pdb
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\CRM.dll.config
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\CRM.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\CRM.pdb
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.BLL.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.Common.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.DAL.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.DBUtility.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.Model.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\VBIDE.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\Newtonsoft.Json.Net35.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\OpenSmtp.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\Excel.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\COM.Excel.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\IBatisNet.DataMapper.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\IBatisNet.Common.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\MySql.Data.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.BLL.pdb
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.Common.pdb
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.DAL.pdb
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.DBUtility.pdb
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\bin\tomoral.Model.pdb
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\obj\Debug\tomoral.CRM.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\obj\Debug\CRM.dll
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\.net ---CRM\.net ---CRM客户管理系统源码\ToMoral.CRM\obj\Debug\CRM.pdb

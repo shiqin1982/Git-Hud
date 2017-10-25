@@ -1,0 +1,91 @@
+F:\VS 2010\XHDcrm\CRM\bin\CRM.dll
+F:\VS 2010\XHDcrm\CRM\bin\CRM.pdb
+F:\VS 2010\XHDcrm\CRM\bin\XHD.BLL.dll
+F:\VS 2010\XHDcrm\CRM\bin\XHD.Common.dll
+F:\VS 2010\XHDcrm\CRM\bin\XHD.DAL.dll
+F:\VS 2010\XHDcrm\CRM\bin\XHD.Model.dll
+F:\VS 2010\XHDcrm\CRM\bin\Newtonsoft.Json.Net35.dll
+F:\VS 2010\XHDcrm\CRM\bin\OpenSmtp.dll
+F:\VS 2010\XHDcrm\CRM\bin\Excel.dll
+F:\VS 2010\XHDcrm\CRM\bin\COM.Excel.dll
+F:\VS 2010\XHDcrm\CRM\bin\XHD.DBUtility.dll
+F:\VS 2010\XHDcrm\CRM\bin\IBatisNet.DataMapper.dll
+F:\VS 2010\XHDcrm\CRM\bin\IBatisNet.Common.dll
+F:\VS 2010\XHDcrm\CRM\bin\MySql.Data.dll
+F:\VS 2010\XHDcrm\CRM\bin\XHD.BLL.pdb
+F:\VS 2010\XHDcrm\CRM\bin\XHD.Common.pdb
+F:\VS 2010\XHDcrm\CRM\bin\XHD.DAL.pdb
+F:\VS 2010\XHDcrm\CRM\bin\XHD.Model.pdb
+F:\VS 2010\XHDcrm\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+F:\VS 2010\XHDcrm\CRM\obj\Debug\CRM.csproj.ResolveComReference.cache
+F:\VS 2010\XHDcrm\CRM\obj\Debug\CRM.dll
+F:\VS 2010\XHDcrm\CRM\obj\Debug\CRM.pdb
+F:\VS 2010\XHDcrm\CRM\bin\XHD.DBUtility.pdb
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\CRM.dll
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\CRM.pdb
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\XHD.BLL.dll
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\XHD.Common.dll
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\XHD.DAL.dll
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\XHD.DBUtility.dll
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\XHD.Model.dll
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\Newtonsoft.Json.Net35.dll
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\OpenSmtp.dll
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\Excel.dll
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\COM.Excel.dll
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\IBatisNet.DataMapper.dll
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\IBatisNet.Common.dll
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\MySql.Data.dll
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\XHD.BLL.pdb
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\XHD.Common.pdb
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\XHD.DAL.pdb
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\XHD.DBUtility.pdb
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\bin\XHD.Model.pdb
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\obj\Debug\CRM.csproj.ResolveComReference.cache
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\obj\Debug\CRM.dll
+D:\系统\桌面\小黄豆CRM源码\小黄豆CRM v1.15.0.5\XHDcrm\CRM\obj\Debug\CRM.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\CRM.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\CRM.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\XHD.BLL.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\XHD.Common.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\XHD.DAL.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\XHD.DBUtility.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\XHD.Model.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\Newtonsoft.Json.Net35.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\OpenSmtp.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\Excel.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\COM.Excel.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\IBatisNet.DataMapper.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\IBatisNet.Common.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\XHD.BLL.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\XHD.Common.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\XHD.DAL.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\XHD.DBUtility.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\bin\XHD.Model.pdb
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\obj\Debug\CRM.csproj.ResolveComReference.cache
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\obj\Debug\CRM.dll
+E:\郝光明工作\代码审核\1月份工作\1.6\第五个小黄豆\小黄豆CRM v1.15.0.5\小黄豆CRM v1.15.0.5源码\XHDcrm\CRM\obj\Debug\CRM.pdb
+D:\XHD\ToMoral.CRM\bin\CRM.dll
+D:\XHD\ToMoral.CRM\bin\CRM.pdb
+D:\XHD\ToMoral.CRM\bin\Newtonsoft.Json.Net35.dll
+D:\XHD\ToMoral.CRM\bin\OpenSmtp.dll
+D:\XHD\ToMoral.CRM\bin\Excel.dll
+D:\XHD\ToMoral.CRM\bin\COM.Excel.dll
+D:\XHD\ToMoral.CRM\bin\IBatisNet.DataMapper.dll
+D:\XHD\ToMoral.CRM\bin\IBatisNet.Common.dll
+D:\XHD\ToMoral.CRM\obj\Debug\CRM.csprojResolveAssemblyReference.cache
+D:\XHD\ToMoral.CRM\obj\Debug\CRM.csproj.ResolveComReference.cache
+D:\XHD\ToMoral.CRM\obj\Debug\CRM.dll
+D:\XHD\ToMoral.CRM\obj\Debug\CRM.pdb
+D:\XHD\ToMoral.CRM\bin\tomoral.BLL.dll
+D:\XHD\ToMoral.CRM\bin\tomoral.Common.dll
+D:\XHD\ToMoral.CRM\bin\tomoral.DAL.dll
+D:\XHD\ToMoral.CRM\bin\tomoral.DBUtility.dll
+D:\XHD\ToMoral.CRM\bin\tomoral.Model.dll
+D:\XHD\ToMoral.CRM\bin\MySql.Data.dll
+D:\XHD\ToMoral.CRM\bin\tomoral.BLL.pdb
+D:\XHD\ToMoral.CRM\bin\tomoral.Common.pdb
+D:\XHD\ToMoral.CRM\bin\tomoral.DAL.pdb
+D:\XHD\ToMoral.CRM\bin\tomoral.DBUtility.pdb
+D:\XHD\ToMoral.CRM\bin\tomoral.Model.pdb
