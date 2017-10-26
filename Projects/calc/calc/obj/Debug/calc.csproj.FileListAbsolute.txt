@@ -1,0 +1,9 @@
+C:\Users\Edwin\Desktop\calc\calc\bin\Debug\calc.exe.config
+C:\Users\Edwin\Desktop\calc\calc\obj\Debug\calc.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Desktop\calc\calc\obj\Debug\calc.Form1.resources
+C:\Users\Edwin\Desktop\calc\calc\obj\Debug\calc.Properties.Resources.resources
+C:\Users\Edwin\Desktop\calc\calc\obj\Debug\calc.csproj.GenerateResource.Cache
+C:\Users\Edwin\Desktop\calc\calc\bin\Debug\calc.exe
+C:\Users\Edwin\Desktop\calc\calc\bin\Debug\calc.pdb
+C:\Users\Edwin\Desktop\calc\calc\obj\Debug\calc.exe
+C:\Users\Edwin\Desktop\calc\calc\obj\Debug\calc.pdb

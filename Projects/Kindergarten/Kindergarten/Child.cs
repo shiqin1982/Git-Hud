@@ -69,6 +69,7 @@ namespace Kindergarten
         private string sex = "男";//性别
         private int age;//年龄
         private int height;//身高
+
         /// <summary>
         /// 踢足球
         /// </summary>

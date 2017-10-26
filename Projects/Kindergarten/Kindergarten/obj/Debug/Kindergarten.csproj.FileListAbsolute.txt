@@ -4,3 +4,9 @@ C:\Users\dell\Documents\Visual Studio 2015\Projects\Kindergarten\Kindergarten\bi
 C:\Users\dell\Documents\Visual Studio 2015\Projects\Kindergarten\Kindergarten\obj\Debug\Kindergarten.csprojResolveAssemblyReference.cache
 C:\Users\dell\Documents\Visual Studio 2015\Projects\Kindergarten\Kindergarten\obj\Debug\Kindergarten.exe
 C:\Users\dell\Documents\Visual Studio 2015\Projects\Kindergarten\Kindergarten\obj\Debug\Kindergarten.pdb
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\Kindergarten\Kindergarten\bin\Debug\Kindergarten.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\Kindergarten\Kindergarten\obj\Debug\Kindergarten.exe
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\Kindergarten\Kindergarten\obj\Debug\Kindergarten.pdb
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\Kindergarten\Kindergarten\bin\Debug\Kindergarten.exe
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\Kindergarten\Kindergarten\bin\Debug\Kindergarten.pdb
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\Kindergarten\Kindergarten\obj\Debug\Kindergarten.csprojResolveAssemblyReference.cache
