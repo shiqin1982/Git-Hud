@@ -5,3 +5,4 @@ http://blog.csdn.net/gpwner/article/details/53140016               //Git教程之一
 http://www.knowsky.com/603474.html		                   //C#函数编程
 http://www.cnblogs.com/richieyang/p/4396048.html                   //C#函数编程
 http://www.360doc.com/content/16/0625/11/26516019_570605400.shtml  //C#函数编程
+http://referencesource.microsoft.com/#mscorlib/system/Collections/Concurrent/ConcurrentQueue.cs,62bea3a8141ed2a9  //C# Reference Source
