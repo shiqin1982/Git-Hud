@@ -28,6 +28,13 @@ namespace 表达式计算器
         private double Result(String expression)
         {
             int length = expression.Length;
+            char[] a = expression.ToCharArray(0, length);
+            double[] data = new double[10];
+            char[] oper = new char[10];
+            int datacount = 0, opercount = 0;
+            double temp = 0;
+            int dicimal = -1;
+            double tempdi = 1;
         }
     }
 }

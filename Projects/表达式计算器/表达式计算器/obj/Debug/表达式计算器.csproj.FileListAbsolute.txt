@@ -1,1 +1,6 @@
 C:\Users\Edwin\Desktop\表达式计算器\表达式计算器\bin\Debug\表达式计算器.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\表达式计算器\表达式计算器\bin\Debug\表达式计算器.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\表达式计算器\表达式计算器\obj\Debug\表达式计算器.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\表达式计算器\表达式计算器\obj\Debug\表达式计算器.Form1.resources
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\表达式计算器\表达式计算器\obj\Debug\表达式计算器.Properties.Resources.resources
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\表达式计算器\表达式计算器\obj\Debug\表达式计算器.csproj.GenerateResource.Cache
