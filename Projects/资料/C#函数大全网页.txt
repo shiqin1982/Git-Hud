@@ -9,3 +9,5 @@ http://referencesource.microsoft.com/#mscorlib/system/Collections/Concurrent/Con
 http://blog.csdn.net/haohao246/article/details/6934043   //C#表达式计算器+小数点
 http://blog.csdn.net/haohao246/article/details/6946019   //C#表达式计算器+过程显示
 http://blog.csdn.net/nc_star/article/details/78354487       //关于Lambda表达式的概述
+http://blog.csdn.net/jiangxinyu/article/details/6858155     //字符串公式解析器——使用“逆波兰式算法”及C#实现
+http://www.cnblogs.com/lxfqlcz/archive/2011/08/02/2124854.html  //字符串公式解析器——使用“逆波兰式算法”及C#实现
