@@ -214,9 +214,5 @@ namespace 表达式计算器_过程显示
         {
             textBox1.Clear();
         }
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

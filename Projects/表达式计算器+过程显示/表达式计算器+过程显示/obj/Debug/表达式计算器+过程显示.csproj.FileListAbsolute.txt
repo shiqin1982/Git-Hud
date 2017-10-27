@@ -1,0 +1,9 @@
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\表达式计算器+过程显示\表达式计算器+过程显示\bin\Debug\表达式计算器+过程显示.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\表达式计算器+过程显示\表达式计算器+过程显示\obj\Debug\表达式计算器+过程显示.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\表达式计算器+过程显示\表达式计算器+过程显示\obj\Debug\表达式计算器_过程显示.Form1.resources
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\表达式计算器+过程显示\表达式计算器+过程显示\obj\Debug\表达式计算器_过程显示.Properties.Resources.resources
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\表达式计算器+过程显示\表达式计算器+过程显示\obj\Debug\表达式计算器+过程显示.csproj.GenerateResource.Cache
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\表达式计算器+过程显示\表达式计算器+过程显示\bin\Debug\表达式计算器+过程显示.exe
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\表达式计算器+过程显示\表达式计算器+过程显示\bin\Debug\表达式计算器+过程显示.pdb
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\表达式计算器+过程显示\表达式计算器+过程显示\obj\Debug\表达式计算器+过程显示.exe
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\表达式计算器+过程显示\表达式计算器+过程显示\obj\Debug\表达式计算器+过程显示.pdb
