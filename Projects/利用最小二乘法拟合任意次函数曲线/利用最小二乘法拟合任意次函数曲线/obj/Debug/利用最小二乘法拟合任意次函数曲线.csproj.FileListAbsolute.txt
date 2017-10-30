@@ -1,0 +1,6 @@
+C:\Users\Edwin\Desktop\利用最小二乘法拟合任意次函数曲线\利用最小二乘法拟合任意次函数曲线\bin\Debug\利用最小二乘法拟合任意次函数曲线.exe.config
+C:\Users\Edwin\Desktop\利用最小二乘法拟合任意次函数曲线\利用最小二乘法拟合任意次函数曲线\bin\Debug\利用最小二乘法拟合任意次函数曲线.exe
+C:\Users\Edwin\Desktop\利用最小二乘法拟合任意次函数曲线\利用最小二乘法拟合任意次函数曲线\bin\Debug\利用最小二乘法拟合任意次函数曲线.pdb
+C:\Users\Edwin\Desktop\利用最小二乘法拟合任意次函数曲线\利用最小二乘法拟合任意次函数曲线\obj\Debug\利用最小二乘法拟合任意次函数曲线.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Desktop\利用最小二乘法拟合任意次函数曲线\利用最小二乘法拟合任意次函数曲线\obj\Debug\利用最小二乘法拟合任意次函数曲线.exe
+C:\Users\Edwin\Desktop\利用最小二乘法拟合任意次函数曲线\利用最小二乘法拟合任意次函数曲线\obj\Debug\利用最小二乘法拟合任意次函数曲线.pdb
