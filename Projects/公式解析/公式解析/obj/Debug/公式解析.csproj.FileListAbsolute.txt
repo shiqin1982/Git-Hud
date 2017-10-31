@@ -1,0 +1,6 @@
+C:\Users\Edwin\Desktop\公式解析\公式解析\bin\Debug\公式解析.exe.config
+C:\Users\Edwin\Desktop\公式解析\公式解析\obj\Debug\公式解析.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Desktop\公式解析\公式解析\bin\Debug\公式解析.exe
+C:\Users\Edwin\Desktop\公式解析\公式解析\bin\Debug\公式解析.pdb
+C:\Users\Edwin\Desktop\公式解析\公式解析\obj\Debug\公式解析.exe
+C:\Users\Edwin\Desktop\公式解析\公式解析\obj\Debug\公式解析.pdb
