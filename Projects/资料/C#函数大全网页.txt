@@ -13,3 +13,4 @@ http://blog.csdn.net/jiangxinyu/article/details/6858155        //×Ö·û´®¹«Ê½½âÎöÆ
 http://www.cnblogs.com/lxfqlcz/archive/2011/08/02/2124854.html  //×Ö·û´®¹«Ê½½âÎöÆ÷¡ª¡ªÊ¹ÓÃ¡°Äæ²¨À¼Ê½Ëã·¨¡±¼°C#ÊµÏÖ
 http://blog.csdn.net/asxinyu_usst/article/details/50703526  //¿ªÔ´Math.NET»ù´¡ÊıÑ§Àà¿âÊ¹ÓÃ(01)×ÛºÏ½éÉÜ
 http://blog.csdn.net/jaylongli/article/details/44082273        //C# ´úÂëÊµÏÖÖ´ĞĞµ¥Ôª²âÊÔÓÃÀı
+http://beinet.cn/Blog/BlogShow.aspx?id=8fe6311d-ea7b-4e81-9fa1-465b593c82c1    //ÕıÔò±Ê¼Ç
