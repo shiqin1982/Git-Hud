@@ -8,11 +8,12 @@ namespace 执行单元测试
 {
     class Program
     {
+       
         static void Main(string[] args)
         {
         }
     }
-    <span style="white-space:pre"></span>
+     <span style="white-space:pre"></span>
     ///<summary>
     ///执行单元测试用例
     ///</summary>
@@ -32,24 +33,33 @@ namespace 执行单元测试
         testp.StartInfo.RedirectStandardInput=true;
         testp.StartInfo.CreateNoWindows=true;
         testp.StartInfo.WindowStyle=ProcessWindowStyle.Hidden;
-    try
-    {
-        testp.Start();
-        testp.StandardInput.WriteLine(DriverFilePath);
-        testp.StandardInput.WriteLine(@"cd"+ConfigurationManger.AppSettings["mstestFilePath"]);
-        testp.StandardInput.WriteLine(@"mstest/noisolation/testcontainer:"+untilTestDllFile+"/resultsfile:"+ConfigurationManger.AppSettings["resultFilePath"]+"TestResults_"+DateTime.Now.Ticks.ToString()+".trx");
-        testp.StandardInput.WriteLine("exit");
-        while(!testp.StandardOutput.EndOfStream)
+        try
         {
-            string line =testp.StandardOutput.ReadLine();
-            if(line.Contains("未通过")||line.Contains("Inconclusive"))
+            testp.Start();
+            testp.StandardInput.WriteLine(DriverFilePath);
+            testp.StandardInput.WriteLine(@"cd"+ConfigurationManger.AppSettings["mstestFilePath"]);
+            testp.StandardInput.WriteLine(@"mstest/noisolation/testcontainer:"+untilTestDllFile+"/resultsfile:"+ConfigurationManger.AppSettings["resultFilePath"]+"TestResults_"+DateTime.Now.Ticks.ToString()+".trx");
+            testp.StandardInput.WriteLine("exit");
+            while(!testp.StandardOutput.EndOfStream)
             {
-                isSuccess=false;
+                string line =testp.StandardOutput.ReadLine();
+                if(line.Contains("未通过")||line.Contains("Inconclusive"))
+                {
+                    isSuccess=false;
+                }
+                complierReturnMsg+=line+"\r\n";
             }
-            complierReturnMsg+=line+"\r\n";
+            testp.StandardInput.Close();
+            testp.WaitForExit();
         }
-        testp.Standard
-     }
-}
-                                         
+        catch(Exception ex)
+        {
+            com.log.Loger.Debug("ExcUnitTest",ex);
+        }
+        finally
+        {
+            testp.Close();
+        }
+        return isSuccess;
+    }
 }

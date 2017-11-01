@@ -1,2 +1,4 @@
 C:\Users\Edwin\Desktop\执行单元测试\执行单元测试\bin\Debug\执行单元测试.exe.config
 C:\Users\Edwin\Desktop\执行单元测试\执行单元测试\obj\Debug\执行单元测试.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\执行单元测试\执行单元测试\bin\Debug\执行单元测试.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\执行单元测试\执行单元测试\obj\Debug\执行单元测试.csprojResolveAssemblyReference.cache
