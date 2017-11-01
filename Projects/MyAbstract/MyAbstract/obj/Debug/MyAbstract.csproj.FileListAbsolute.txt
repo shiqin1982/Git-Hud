@@ -1,0 +1,30 @@
+D:\ruanmou\OpenCourse\20170418Abstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.exe.config
+D:\ruanmou\OpenCourse\20170418Abstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.exe
+D:\ruanmou\OpenCourse\20170418Abstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.pdb
+D:\ruanmou\OpenCourse\20170418Abstract\MyAbstract\MyAbstract\obj\Debug\MyAbstract.exe
+D:\ruanmou\OpenCourse\20170418Abstract\MyAbstract\MyAbstract\obj\Debug\MyAbstract.pdb
+D:\ruanmou\OpenCourse\20170601Abstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.exe.config
+D:\ruanmou\OpenCourse\20170601Abstract\MyAbstract\MyAbstract\obj\Debug\MyAbstract.exe
+D:\ruanmou\OpenCourse\20170601Abstract\MyAbstract\MyAbstract\obj\Debug\MyAbstract.pdb
+D:\ruanmou\OpenCourse\20170601Abstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.exe
+D:\ruanmou\OpenCourse\20170601Abstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.pdb
+D:\ruanmou\OpenCourse\20170704Abstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.exe.config
+D:\ruanmou\OpenCourse\20170704Abstract\MyAbstract\MyAbstract\obj\Debug\MyAbstract.exe
+D:\ruanmou\OpenCourse\20170704Abstract\MyAbstract\MyAbstract\obj\Debug\MyAbstract.pdb
+D:\ruanmou\OpenCourse\20170704Abstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.exe
+D:\ruanmou\OpenCourse\20170704Abstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.pdb
+D:\ruanmou\OpenCourse\20170808Abstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.exe.config
+D:\ruanmou\OpenCourse\20170808Abstract\MyAbstract\MyAbstract\obj\Debug\MyAbstract.exe
+D:\ruanmou\OpenCourse\20170808Abstract\MyAbstract\MyAbstract\obj\Debug\MyAbstract.pdb
+D:\ruanmou\OpenCourse\20170808Abstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.exe
+D:\ruanmou\OpenCourse\20170808Abstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.pdb
+D:\ruanmou\OpenCourse\20171101Abstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.exe.config
+D:\ruanmou\OpenCourse\20171101Abstract\MyAbstract\MyAbstract\obj\Debug\MyAbstract.exe
+D:\ruanmou\OpenCourse\20171101Abstract\MyAbstract\MyAbstract\obj\Debug\MyAbstract.pdb
+D:\ruanmou\OpenCourse\20171101Abstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.exe
+D:\ruanmou\OpenCourse\20171101Abstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.pdb
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\20171101MyAbstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.exe.config
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\20171101MyAbstract\MyAbstract\MyAbstract\obj\Debug\MyAbstract.exe
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\20171101MyAbstract\MyAbstract\MyAbstract\obj\Debug\MyAbstract.pdb
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\20171101MyAbstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.exe
+C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\20171101MyAbstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.pdb

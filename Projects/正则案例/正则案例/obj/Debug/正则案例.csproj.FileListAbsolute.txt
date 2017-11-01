@@ -1,0 +1,6 @@
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\正则案例\正则案例\bin\Debug\正则案例.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\正则案例\正则案例\obj\Debug\正则案例.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\正则案例\正则案例\bin\Debug\正则案例.exe
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\正则案例\正则案例\bin\Debug\正则案例.pdb
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\正则案例\正则案例\obj\Debug\正则案例.exe
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\正则案例\正则案例\obj\Debug\正则案例.pdb

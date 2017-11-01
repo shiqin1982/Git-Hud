@@ -1,0 +1,6 @@
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\用正则转换\用正则转换\bin\Debug\用正则转换.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\用正则转换\用正则转换\obj\Debug\用正则转换.csprojResolveAssemblyReference.cache
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\用正则转换\用正则转换\bin\Debug\用正则转换.exe
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\用正则转换\用正则转换\bin\Debug\用正则转换.pdb
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\用正则转换\用正则转换\obj\Debug\用正则转换.exe
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\用正则转换\用正则转换\obj\Debug\用正则转换.pdb
