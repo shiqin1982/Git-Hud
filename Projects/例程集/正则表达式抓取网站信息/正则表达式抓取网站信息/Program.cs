@@ -76,6 +76,28 @@ namespace 正则表达式抓取网站信息
                     Console.WriteLine("价格：{0}", price);
                 }
             }
+            ///<summary>
+            ///公共方法类
+            ///</summary>
+            public class WebHandler
+            {
+                ///<summary>
+                ///获取网页的HTML码
+                ///</summary>
+                ///<param name="url">链接地址</param>
+                ///<param name="encoding">编码类型</param>
+                ///<returns></returns>
+                public static string GetHtmlStr(string url,string encoding)
+                {
+                    string htmlStr=""
+                    try
+                    {
+
+
+                    }
+                }
+                
+            }
         }
     }
 }
