@@ -14,3 +14,4 @@ http://www.cnblogs.com/lxfqlcz/archive/2011/08/02/2124854.html  //字符串公式解析
 http://blog.csdn.net/asxinyu_usst/article/details/50703526  //开源Math.NET基础数学类库使用(01)综合介绍
 http://blog.csdn.net/jaylongli/article/details/44082273        //C# 代码实现执行单元测试用例
 http://beinet.cn/Blog/BlogShow.aspx?id=8fe6311d-ea7b-4e81-9fa1-465b593c82c1    //正则笔记
+http://www.cnblogs.com/sosoft/p/regex.html                     //C#正则表达式教程和示例
