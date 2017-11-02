@@ -1,0 +1,5 @@
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\正则表达式实例\正则表达式实例\bin\Debug\正则表达式实例.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\正则表达式实例\正则表达式实例\bin\Debug\正则表达式实例.exe
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\正则表达式实例\正则表达式实例\bin\Debug\正则表达式实例.pdb
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\正则表达式实例\正则表达式实例\obj\Debug\正则表达式实例.exe
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\正则表达式实例\正则表达式实例\obj\Debug\正则表达式实例.pdb

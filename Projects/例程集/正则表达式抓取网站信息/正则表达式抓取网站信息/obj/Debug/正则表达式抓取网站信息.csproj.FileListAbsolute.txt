@@ -1,0 +1,2 @@
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\例程集\正则表达式抓取网站信息\正则表达式抓取网站信息\bin\Debug\正则表达式抓取网站信息.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\例程集\正则表达式抓取网站信息\正则表达式抓取网站信息\obj\Debug\正则表达式抓取网站信息.csprojResolveAssemblyReference.cache
