@@ -28,3 +28,6 @@ C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\20171101MyAbstract\MyA
 C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\20171101MyAbstract\MyAbstract\MyAbstract\obj\Debug\MyAbstract.pdb
 C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\20171101MyAbstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.exe
 C:\Users\Edwin\Documents\Tencent Files\373137703\FileRecv\20171101MyAbstract\MyAbstract\MyAbstract\bin\Debug\MyAbstract.pdb
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\MyAbstract\MyAbstract\bin\Debug\MyAbstract.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\MyAbstract\MyAbstract\obj\Debug\MyAbstract.exe
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\MyAbstract\MyAbstract\obj\Debug\MyAbstract.pdb

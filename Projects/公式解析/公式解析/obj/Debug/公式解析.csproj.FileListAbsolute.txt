@@ -4,3 +4,6 @@ C:\Users\Edwin\Desktop\公式解析\公式解析\bin\Debug\公式解析.exe
 C:\Users\Edwin\Desktop\公式解析\公式解析\bin\Debug\公式解析.pdb
 C:\Users\Edwin\Desktop\公式解析\公式解析\obj\Debug\公式解析.exe
 C:\Users\Edwin\Desktop\公式解析\公式解析\obj\Debug\公式解析.pdb
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\公式解析\公式解析\bin\Debug\公式解析.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\公式解析\公式解析\obj\Debug\公式解析.exe
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\公式解析\公式解析\obj\Debug\公式解析.pdb

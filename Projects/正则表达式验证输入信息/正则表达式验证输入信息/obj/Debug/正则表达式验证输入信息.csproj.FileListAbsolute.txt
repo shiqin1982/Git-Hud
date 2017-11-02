@@ -1,0 +1,2 @@
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\正则表达式验证输入信息\正则表达式验证输入信息\bin\Debug\正则表达式验证输入信息.exe.config
+C:\Users\Edwin\Downloads\项目资料\Git-Hud\Projects\正则表达式验证输入信息\正则表达式验证输入信息\obj\Debug\正则表达式验证输入信息.csprojResolveAssemblyReference.cache
