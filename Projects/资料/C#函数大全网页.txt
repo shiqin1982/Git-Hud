@@ -15,3 +15,5 @@ http://blog.csdn.net/asxinyu_usst/article/details/50703526  //开源Math.NET基础数
 http://blog.csdn.net/jaylongli/article/details/44082273        //C# 代码实现执行单元测试用例
 http://beinet.cn/Blog/BlogShow.aspx?id=8fe6311d-ea7b-4e81-9fa1-465b593c82c1    //正则笔记
 http://www.cnblogs.com/sosoft/p/regex.html                     //C#正则表达式教程和示例
+http://www.cnblogs.com/hbliu_ren/p/4008323.html          //C#加密狗程序1
+http://blog.csdn.net/younger_z/article/details/41927233    //C#加密狗程序2
